@@ -1,0 +1,12 @@
+{
+	"name": "mediawiki/blue-spice-watch-list",
+	"type": "mediawiki-extension",
+	"description": "Adds a watchlist widget and tag",
+	"license": "GPL-3.0",
+	"autoload" : {
+		"psr-4": {
+			"BlueSpice\\WatchList\\": "src",
+			"BlueSpice\\WatchList\\Tests\\": "tests/phpunit"
+		}
+	}
+}
