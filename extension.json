@@ -5,7 +5,7 @@
 	"author": "Robert Vogel",
 	"descriptionmsg": "bs-watchlist-desc",
 	"type": "bluespice",
-	"license-name": "GPL-2.0+",
+	"license-name": "GPL-2.0-or-later",
 	"bsgExtensions": {
 		"BlueSpiceWatchList": {
 			"className": "WatchList",
