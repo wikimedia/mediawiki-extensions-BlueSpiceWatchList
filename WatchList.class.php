@@ -48,18 +48,6 @@ class WatchList extends BsExtensionMW {
 		$this->setHook( 'BSWidgetListHelperInitKeyWords' );
 		$this->setHook( 'BSInsertMagicAjaxGetData' );
 		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
-
-		BsConfig::registerVar( 'MW::WatchList::WidgetLimit', 10, BsConfig::LEVEL_USER|BsConfig::TYPE_INT, 'bs-watchlist-pref-widgetlimit', 'int' );
-		BsConfig::registerVar( 'MW::WatchList::WidgetSortOdr', 'time', BsConfig::LEVEL_USER|BsConfig::TYPE_STRING|BsConfig::USE_PLUGIN_FOR_PREFS, 'bs-watchlist-pref-widgetsortodr', 'select' );
-	}
-
-	public function runPreferencePlugin( $sAdapterName, $oVariable ) {
-		return array(
-			'options' => array(
-				wfMessage( 'bs-watchlist-pref-sort-time' )->plain() => 'time',
-				wfMessage( 'bs-watchlist-pref-sort-title' )->plain() => 'pagename',
-			)
-		);
 	}
 
 	/**
@@ -171,8 +159,8 @@ class WatchList extends BsExtensionMW {
 			return null;
 		}
 
-		$iCount = BsConfig::get('MW::WatchList::WidgetLimit');
-		$sOrder = BsConfig::get('MW::WatchList::WidgetSortOdr');
+		$iCount = $oCurrentUser->getOption( 'bs-watchlist-pref-widgetlimit' );
+		$sOrder = $oCurrentUser->getOption( 'bs-watchlist-pref-widgetsortodr' );
 
 		//Validation
 		$oValidationICount = BsValidator::isValid( 'IntegerRange', $iCount, array('fullResponse' => true, 'lowerBoundary' => 1, 'upperBoundary' => 30) );
