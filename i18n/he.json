@@ -4,5 +4,11 @@
 			"Guycn2"
 		]
 	},
-	"bs-watchlist-tag-watchlist-desc": "הצגת הערכים מרשימת המעקב שלך המכילים הכי הרבה שינויים אחרונים."
+	"bs-watchlist-desc": "הוספת תגית ויישומון לרשימת המעקב",
+	"bs-watchlist-title-sidebar": "רשימת המעקב",
+	"bs-watchlist-pref-widgetlimit": "הגבלת הרשומות:",
+	"bs-watchlist-pref-widgetsortodr": "מיון לפי:",
+	"bs-watchlist-pref-sort-time": "שעה",
+	"bs-watchlist-pref-sort-title": "כותרת",
+	"bs-watchlist-tag-watchlist-desc": "הצגת הערכים מרשימת המעקב שלך שמכילים הכי הרבה שינויים אחרונים."
 }
