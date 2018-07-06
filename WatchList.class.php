@@ -44,7 +44,6 @@ class WatchList extends BsExtensionMW {
 	protected function initExt() {
 		$this->setHook( 'BeforePageDisplay' );
 		$this->setHook( 'ParserFirstCallInit' );
-		$this->setHook( 'BSUserSidebarDefaultWidgets' );
 		$this->setHook( 'BSWidgetListHelperInitKeyWords' );
 		$this->setHook( 'BSInsertMagicAjaxGetData' );
 		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
