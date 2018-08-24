@@ -44,7 +44,6 @@ class WatchList extends BsExtensionMW {
 	protected function initExt() {
 		$this->setHook( 'BeforePageDisplay' );
 		$this->setHook( 'ParserFirstCallInit' );
-		$this->setHook( 'BSWidgetListHelperInitKeyWords' );
 		$this->setHook( 'BSInsertMagicAjaxGetData' );
 		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
 	}
@@ -139,54 +138,6 @@ class WatchList extends BsExtensionMW {
 	}
 
 	/**
-	 * Event-Handler for 'MW::Utility::WidgetListHelper::InitKeywords'. Registers a callback for the WATCHLIST Keyword.
-	 * @param array $aKeywords An array of Keywords array( 'KEYWORD' => $callable )
-	 * @return array The appended array of Keywords array( 'KEYWORD' => $callable )
-	 */
-	public function onBSWidgetListHelperInitKeyWords( &$aKeywords, $oTitle ) {
-		$aKeywords['WATCHLIST'] = array( $this, 'onWidgetListKeyword' );
-		return true;
-	}
-
-	/**
-	 * Creates a Widget and returns it
-	 * @return ViewWidget
-	 */
-	public function onWidgetListKeyword() {
-		$oCurrentUser = $this->getUser();
-		if( $oCurrentUser->isAnon() ) {
-			return null;
-		}
-
-		$iCount = $oCurrentUser->getOption( 'bs-watchlist-pref-widgetlimit' );
-		$sOrder = $oCurrentUser->getOption( 'bs-watchlist-pref-widgetsortodr' );
-
-		//Validation
-		$oValidationICount = BsValidator::isValid( 'IntegerRange', $iCount, array('fullResponse' => true, 'lowerBoundary' => 1, 'upperBoundary' => 30) );
-		if( $oValidationICount->getErrorCode() ) $iCount = 10;
-		if( !in_array( $sOrder, array( 'pagename', 'time' ) ) ) $sOrder = 'pagename';
-
-		$oUserSidebarView = new ViewWidget();
-		$oUserSidebarView->setTitle( wfMessage( 'bs-watchlist-title-sidebar' )->plain() )
-			->setAdditionalBodyClasses( array('bs-nav-links') ); //For correct margin and fontsize
-
-		$oWatchList = $this->fetchWatchlist(
-			$oCurrentUser,
-			$iCount,
-			30,
-			$sOrder
-		);
-		$sWatchListWikiText = $oWatchList->execute();
-		if (  empty( $sWatchListWikiText ) ) {
-			return $oUserSidebarView;
-		}
-
-		$oUserSidebarView->setBody( $this->mCore->parseWikiText( $sWatchListWikiText, $this->getTitle(), true), $this->getTitle() );
-
-		return $oUserSidebarView;
-	}
-
-	/**
 	 *
 	 * @param User $oCurrentUser
 	 * @param int $iCount
@@ -234,17 +185,6 @@ class WatchList extends BsExtensionMW {
 		}
 
 		return $oWatchedArticlesListView;
-	}
-
-	/**
-	 * Callback for UserSidebar. Adds the PagesVisited Widget to the UserSidebar as default filling.
-	 * @param BsEvent $oEvent The event to handle
-	 * @param array $aWidgets An array of WidgetView objects
-	 * @return array An array of WidgetView objects
-	 */
-	public function onBSUserSidebarDefaultWidgets( &$aViews, $oUser, $oTitle ) {
-		$aViews['WATCHLIST'] = $this->onWidgetListKeyword();
-		return true;
 	}
 
 	/**
