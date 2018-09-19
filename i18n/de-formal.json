@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stephan Muggli <muggli@hallowelt.biz>"
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Hwboehm"
 		]
 	},
-	"bs-watchlist-tag-watchlist-desc": "Erstellt eine Liste von Seiten, die eine noch nicht gesehene Änderung beinhalten und sich auf Ihrer Beobachtungsliste befinden."
+	"bs-watchlist-tag-watchlist-desc": "Zeigt die Artikel an, die letzte Änderungen haben und die auf Ihrer Beobachtungsliste sind."
 }
