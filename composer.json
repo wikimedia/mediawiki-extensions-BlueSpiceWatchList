@@ -1,8 +1,14 @@
 {
-	"name": "mediawiki/blue-spice-watch-list",
+	"name": "bluespice/watchlist",
 	"type": "mediawiki-extension",
 	"description": "Adds a watchlist widget and tag",
 	"license": "GPL-3.0-only",
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"extra": {
+		"installer-name": "BlueSpiceWatchList"
+	},
 	"autoload" : {
 		"psr-4": {
 			"BlueSpice\\WatchList\\": "src",
