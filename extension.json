@@ -6,6 +6,9 @@
 	"descriptionmsg": "bs-watchlist-desc",
 	"type": "bluespice",
 	"license-name": "GPL-3.0-only",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
 	"attributes": {
 		"BlueSpiceFoundation": {
 			"Extensions": {
