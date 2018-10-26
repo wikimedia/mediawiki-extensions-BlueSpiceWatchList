@@ -1,6 +1,6 @@
 {
 	"name": "BlueSpiceWatchList",
-	"version": "3.1.0-alpha",
+	"version": "3.0.0",
 	"url": "https://help.bluespice.com/index.php/WatchList",
 	"author": "Robert Vogel",
 	"descriptionmsg": "bs-watchlist-desc",
@@ -30,6 +30,24 @@
 	"ResourceModules": {
 		"ext.bluespice.watchlist.styles": {
 			"styles": "bluespice.watchlist.css"
+		},
+		"ext.bluespice.watchlist.myWatchlistWindow.bootstrap": {
+			"scripts": [
+				"ext.bluespice.watchlist.myWatchlistWindow.bootstrap.js"
+			]
+		},
+		"ext.bluespice.watchlist.myWatchlistWindow": {
+			"styles": [
+				"ext.bluespice.watchlist.myWatchlistWindow.css"
+			],
+			"messages": [
+				"bs-watchlist-window-watchlist-title",
+				"bs-watchlist-window-watchlist-intro",
+				"bs-watchlist-grid-watchlist-column-link-header",
+				"bs-watchlist-grid-watchlist-column-hasunreadchanges-header",
+				"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip",
+				"bs-watchlist-grid-watchlist-label-filter"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -49,6 +67,9 @@
 		"bs-watchlist-pref-widgetsortodr": "time"
 	},
 	"Hooks": {
+		"BeforePageDisplay": [
+			"\\BlueSpice\\WatchList\\Hook\\BeforePageDisplay\\AddModules::callback"
+		],
 		"GetPreferences": [
 			"\\BlueSpice\\WatchList\\Hook\\GetPreferences\\WidgetLimit::callback",
 			"\\BlueSpice\\WatchList\\Hook\\GetPreferences\\WidgetSortOdr::callback"
