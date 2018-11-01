@@ -13,7 +13,7 @@
 	"bs-watchlist-pref-sort-title": "Titel",
 	"bs-watchlist-tag-watchlist-desc": "Zeigt die Artikel an, die letzte Änderungen haben und die auf deiner Beobachtungsliste sind.",
 	"bs-watchlist-window-watchlist-title": "Beobachtungsliste",
-	"bs-watchlist-window-watchlist-intro": "Dies ist ein Überblick über alle Seiten auf deiner Beobachtungsliste. Du kannst auch auf die [[Spezial:Beobachtungsliste|klassische Ansicht wechseln]].",
+	"bs-watchlist-window-watchlist-intro": "Dies ist ein Überblick über alle Seiten auf deiner Beobachtungsliste. Du kannst auch auf die [[Special:Watchlist|klassische Ansicht wechseln]].",
 	"bs-watchlist-grid-watchlist-column-link-header": "Seite",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Ungelesene Änderungen",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Änderungen ansehen",
