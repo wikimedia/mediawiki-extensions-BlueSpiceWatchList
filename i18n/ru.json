@@ -18,6 +18,7 @@
 	"bs-watchlist-window-watchlist-intro": "Это обзор всех страниц в вашем списке наблюдения. Вы также можете перейти на [[Special:Watchlist|обычную страницу списка наблюдения]].",
 	"bs-watchlist-grid-watchlist-column-link-header": "Страница",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Непросмотренные изменения",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Инспектировать изменения",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Страница обсуждения",
 	"bs-watchlist-grid-watchlist-label-filter": "Фильтр"
 }
