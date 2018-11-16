@@ -1,4 +1,4 @@
-( function ( mw, $, bs, d, undefined ) {
+( function ( mw, $, d, undefined ) {
 	$( d ).on( 'click', '#pt-watchlist', function ( e ) {
 		e.defaultPrevented = true;
 
@@ -12,4 +12,4 @@
 
 		return false;
 	} );
-} )( mediaWiki, jQuery, blueSpice, document );
+} )( mediaWiki, jQuery, document );
