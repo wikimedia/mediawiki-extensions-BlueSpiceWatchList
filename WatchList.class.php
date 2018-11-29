@@ -168,6 +168,7 @@ class WatchList extends BsExtensionMW {
 
 		$oWatchedArticlesListView = new ViewBaseElement();
 		$oWatchedArticlesListView->setTemplate( '*{WIKILINK}' . "\n" );
+		$util = \BlueSpice\Services::getInstance()->getBSUtilityFactory();
 		foreach ( $res as $row ) {
 			$oWatchedTitle = Title::newFromText( $row->wl_title, $row->wl_namespace );
 			if( $oWatchedTitle === null
@@ -179,9 +180,15 @@ class WatchList extends BsExtensionMW {
 				$oWatchedTitle->getPrefixedText(),
 				array( 'max-length' => $iMaxTitleLength, 'position' => 'middle' )
 			);
-			$oWatchedArticlesListView->addData(
-				array (	'WIKILINK' => BsLinkProvider::makeEscapedWikiLinkForTitle( $oWatchedTitle, $sDisplayTitle )	)
-				);
+
+			$linkHelper = $util->getWikiTextLinksHelper( '' )
+				->getInternalLinksHelper()->addTargets( [
+				$sDisplayTitle => $oWatchedTitle
+			] );
+
+			$oWatchedArticlesListView->addData( [
+				'WIKILINK' => $linkHelper->getWikitext()
+			] );
 		}
 
 		return $oWatchedArticlesListView;
