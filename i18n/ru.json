@@ -3,7 +3,8 @@
 		"authors": [
 			"SuperPuperSteve",
 			"Meshkov.a",
-			"Okras"
+			"Okras",
+			"Vlad5250"
 		]
 	},
 	"bs-watchlist-desc": "Добавляет виджет списка наблюдения и теги",
@@ -12,5 +13,12 @@
 	"bs-watchlist-pref-widgetsortodr": "Сортировать по:",
 	"bs-watchlist-pref-sort-time": "Время",
 	"bs-watchlist-pref-sort-title": "Заголовок",
-	"bs-watchlist-tag-watchlist-desc": "Показывает статьи из вашего списка наблюдения с самыми свежими правками."
+	"bs-watchlist-tag-watchlist-desc": "Показывает статьи из вашего списка наблюдения с самыми свежими правками.",
+	"bs-watchlist-window-watchlist-title": "Список наблюдения",
+	"bs-watchlist-window-watchlist-intro": "Это обзор всех страниц в вашем списке наблюдения. Вы также можете перейти на [[Special:Watchlist|обычную страницу списка наблюдения]].",
+	"bs-watchlist-grid-watchlist-column-link-header": "Страница",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Непросмотренные изменения",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Инспектировать изменения",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Страница обсуждения",
+	"bs-watchlist-grid-watchlist-label-filter": "Фильтр"
 }
