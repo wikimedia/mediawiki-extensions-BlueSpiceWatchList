@@ -134,7 +134,7 @@ class WatchList extends BsExtensionMW {
 		}
 
 		$oWatchList = $this->fetchWatchlist( $this->getUser(), $iCount, $iMaxTitleLength, $sOrder );
-		return $this->mCore->parseWikiText( $oWatchList->execute(), $this->getTitle() );
+		return $oParser->recursiveTagParseFully( $oWatchList->execute() );
 	}
 
 	/**
