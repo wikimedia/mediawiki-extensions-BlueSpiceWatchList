@@ -87,8 +87,7 @@ class WatchList extends BasePanel implements IPanel {
 		foreach ( $res as $row ) {
 			$watchedTitle = \Title::newFromText( $row->wl_title, $row->wl_namespace );
 			if( $watchedTitle instanceof \Title === false
-				|| $watchedTitle->exists() == false
-				|| $watchedTitle->userCan('read' ) === false ) {
+				|| $watchedTitle->exists() == false ) {
 				continue;
 			}
 
