@@ -6,8 +6,6 @@
 	},
 	"bs-watchlist-desc": "Legger til en overvåkningslistewidget og -tagg",
 	"bs-watchlist-title-sidebar": "Overvåkningsliste",
-	"bs-watchlist-pref-widgetlimit": "Oppslagsgrense:",
-	"bs-watchlist-pref-widgetsortodr": "Sorter etter:",
 	"bs-watchlist-pref-sort-time": "Tid",
 	"bs-watchlist-pref-sort-title": "Tittel",
 	"bs-watchlist-tag-watchlist-desc": "Viser artiklene som har de nyligste endringene og er på overvåkningslista di."
