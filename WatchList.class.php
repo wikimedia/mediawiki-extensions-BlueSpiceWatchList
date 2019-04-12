@@ -26,7 +26,7 @@
  * @package    BlueSpice_Extensions
  * @subpackage WatchList
  * @copyright  Copyright (C) 2016 Hallo Welt! GmbH, All rights reserved.
- * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v2 or later
+ * @license    http://www.gnu.org/copyleft/gpl.html GPL-2.0-or-later
  * @filesource
  */
 
@@ -50,12 +50,14 @@ class WatchList extends BsExtensionMW {
 
 	/**
 	 * Inject tags into InsertMagic
-	 * @param Object $oResponse reference
-	 * $param String $type
+	 * @param Object &$oResponse reference
+	 * @param String $type
 	 * @return always true to keep hook running
 	 */
 	public function onBSInsertMagicAjaxGetData( &$oResponse, $type ) {
-		if( $type != 'tags' ) return true;
+		if ( $type != 'tags' ) {
+			return true;
+		}
 
 		$oDescriptor = new stdClass();
 		$oDescriptor->id = 'bs:watchlist';
@@ -70,14 +72,14 @@ class WatchList extends BsExtensionMW {
 		return true;
 	}
 
-	 /**
+	/**
 	 * Registers &lt;bs:watchlist /&gt; and &lt;watchlist /&gt; tags with the MediaWiki parser
-	 * @param Parser $oParser Current MediaWiki Parser object
+	 * @param Parser &$oParser Current MediaWiki Parser object
 	 * @return bool allow other hooked methods to be executed. Always true.
 	 */
 	public function onParserFirstCallInit( &$oParser ) {
-		$oParser->setHook( 'bs:watchlist', array( $this, 'onWatchlistTag' ) );
-		$oParser->setHook( 'watchlist',    array( $this, 'onWatchlistTag' ) );
+		$oParser->setHook( 'bs:watchlist', [ $this, 'onWatchlistTag' ] );
+		$oParser->setHook( 'watchlist',    [ $this, 'onWatchlistTag' ] );
 
 		return true;
 	}
@@ -90,40 +92,40 @@ class WatchList extends BsExtensionMW {
 	 * @return string Rendered HTML.
 	 */
 	public function onWatchlistTag( $sInput, $aAttributes, $oParser ) {
-		$oParser ->getOutput()->setProperty( 'bs-tag-watchlist', 1 );
+		$oParser->getOutput()->setProperty( 'bs-tag-watchlist', 1 );
 
-		//Get arguments
-		$iCount          = BsCore::sanitizeArrayEntry( $aAttributes, 'count',          5,          BsPARAMTYPE::INT        );
-		$iMaxTitleLength = BsCore::sanitizeArrayEntry( $aAttributes, 'maxtitlelength', 20,         BsPARAMTYPE::INT        );
-		$sOrder          = BsCore::sanitizeArrayEntry( $aAttributes, 'order',          'pagename', BsPARAMTYPE::SQL_STRING ); //'pagename|time'
+		// Get arguments
+		$iCount          = BsCore::sanitizeArrayEntry( $aAttributes, 'count',          5,          BsPARAMTYPE::INT );
+		$iMaxTitleLength = BsCore::sanitizeArrayEntry( $aAttributes, 'maxtitlelength', 20,         BsPARAMTYPE::INT );
+		$sOrder          = BsCore::sanitizeArrayEntry( $aAttributes, 'order',          'pagename', BsPARAMTYPE::SQL_STRING ); // 'pagename|time'
 
-		//Validation
+		// Validation
 		$oErrorListView = new ViewTagErrorList( $this );
-		$oValidationICount = BsValidator::isValid( 'IntegerRange', $iCount, array('fullResponse' => true, 'lowerBoundary' => 1, 'upperBoundary' => 1000) );
+		$oValidationICount = BsValidator::isValid( 'IntegerRange', $iCount, [ 'fullResponse' => true, 'lowerBoundary' => 1, 'upperBoundary' => 1000 ] );
 		if ( $oValidationICount->getErrorCode() ) {
 			$oErrorListView->addItem(
-				new ViewTagError( 'count: '.wfMessage( $oValidationICount->getI18N() )->text() )
+				new ViewTagError( 'count: ' . wfMessage( $oValidationICount->getI18N() )->text() )
 			);
 		}
 
-		$oValidationIMaxTitleLength = BsValidator::isValid( 'IntegerRange', $iMaxTitleLength, array('fullResponse' => true, 'lowerBoundary' => 5, 'upperBoundary' => 500) );
+		$oValidationIMaxTitleLength = BsValidator::isValid( 'IntegerRange', $iMaxTitleLength, [ 'fullResponse' => true, 'lowerBoundary' => 5, 'upperBoundary' => 500 ] );
 		if ( $oValidationIMaxTitleLength->getErrorCode() ) {
 			$oErrorListView->addItem(
-				new ViewTagError( 'maxtitlelength: '.wfMessage( $oValidationIMaxTitleLength->getI18N() )->text() )
+				new ViewTagError( 'maxtitlelength: ' . wfMessage( $oValidationIMaxTitleLength->getI18N() )->text() )
 			);
 		}
 
 		$oValidationResult = BsValidator::isValid(
 			'SetItem',
 			$sOrder,
-			array(
+			[
 				'fullResponse' => true,
 				'setname' => 'sort',
-				'set' => array(
+				'set' => [
 					'time',
 					'pagename'
-				)
-			)
+				]
+			]
 		);
 		if ( $oValidationResult->getErrorCode() ) {
 			$oErrorListView->addItem( new ViewTagError( $oValidationResult->getI18N() ) );
@@ -146,10 +148,10 @@ class WatchList extends BsExtensionMW {
 	 * @return ViewBaseElement
 	 */
 	private function fetchWatchlist( $oCurrentUser, $iCount = 10, $iMaxTitleLength = 50, $sOrder = 'pagename' ) {
-		$aWatchlist = array();
+		$aWatchlist = [];
 
-		$aOptions = array();
-		if( $sOrder == 'pagename' ) {
+		$aOptions = [];
+		if ( $sOrder == 'pagename' ) {
 			$aOptions['ORDER BY'] = 'wl_title';
 		}
 		$aOptions['LIMIT'] = $iCount;
@@ -157,11 +159,11 @@ class WatchList extends BsExtensionMW {
 		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select(
 			'watchlist',
-			array( 'wl_namespace', 'wl_title' ),
-			array(
+			[ 'wl_namespace', 'wl_title' ],
+			[
 				'wl_user' => $oCurrentUser->getId(),
-				'NOT wl_notificationtimestamp' => NULL
-			),
+				'NOT wl_notificationtimestamp' => null
+			],
 			__METHOD__,
 			$aOptions
 		);
@@ -171,14 +173,14 @@ class WatchList extends BsExtensionMW {
 		$util = \BlueSpice\Services::getInstance()->getBSUtilityFactory();
 		foreach ( $res as $row ) {
 			$oWatchedTitle = Title::newFromText( $row->wl_title, $row->wl_namespace );
-			if( $oWatchedTitle === null
+			if ( $oWatchedTitle === null
 				|| $oWatchedTitle->exists() === false
 				|| $oWatchedTitle->userCan( 'read' ) === false ) {
 				continue;
 			}
 			$sDisplayTitle = BsStringHelper::shorten(
 				$oWatchedTitle->getPrefixedText(),
-				array( 'max-length' => $iMaxTitleLength, 'position' => 'middle' )
+				[ 'max-length' => $iMaxTitleLength, 'position' => 'middle' ]
 			);
 
 			$linkHelper = $util->getWikiTextLinksHelper( '' )
@@ -196,26 +198,26 @@ class WatchList extends BsExtensionMW {
 
 	/**
 	 * Register tag with UsageTracker extension
-	 * @param array $aCollectorsConfig
+	 * @param array &$aCollectorsConfig
 	 * @return Always true to keep hook running
 	 */
 	public function onBSUsageTrackerRegisterCollectors( &$aCollectorsConfig ) {
-		$aCollectorsConfig['bs:watchlist'] = array(
+		$aCollectorsConfig['bs:watchlist'] = [
 			'class' => 'Property',
-			'config' => array(
+			'config' => [
 				'identifier' => 'bs-tag-watchlist'
-			)
-		);
+			]
+		];
 		return true;
 	}
 
 	/**
 	 * Adds CSS to Page
 	 *
-	 * @param OutputPage $out
-	 * @param Skin       $skin
+	 * @param OutputPage &$out
+	 * @param Skin &$skin
 	 *
-	 * @return boolean
+	 * @return bool
 	 */
 	public function onBeforePageDisplay( &$out, &$skin ) {
 		$out->addModuleStyles( 'ext.bluespice.watchlist.styles' );
