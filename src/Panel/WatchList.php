@@ -30,7 +30,7 @@ class WatchList extends BasePanel implements IPanel {
 	public function getBody() {
 		$watchlistTitles = $this->getWatchlistTitles();
 		$links = [];
-		foreach( $watchlistTitles as $watchlistTitle ) {
+		foreach ( $watchlistTitles as $watchlistTitle ) {
 			$link = [
 				'href' => $watchlistTitle['title']->getFullURL(),
 				'text' => $watchlistTitle['displayText'],
@@ -57,17 +57,17 @@ class WatchList extends BasePanel implements IPanel {
 		$watchlist = [];
 
 		$maxLength = 30;
-		if( isset( $this->params['maxtitlelength'] ) ) {
-			$maxLength = (int) $this->params['maxtitlelength'];
+		if ( isset( $this->params['maxtitlelength'] ) ) {
+			$maxLength = (int)$this->params['maxtitlelength'];
 		}
 
 		$count = 7;
-		if( isset( $this->params['count'] ) ) {
-			$count = (int) $this->params['count'];
+		if ( isset( $this->params['count'] ) ) {
+			$count = (int)$this->params['count'];
 		}
 
 		$options = [];
-		if( isset( $this->params['order'] ) && $this->params['order'] == 'pagename' ) {
+		if ( isset( $this->params['order'] ) && $this->params['order'] == 'pagename' ) {
 			$options['ORDER BY'] = 'wl_title';
 		}
 		$options['LIMIT'] = $count;
@@ -75,25 +75,25 @@ class WatchList extends BasePanel implements IPanel {
 		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select(
 			'watchlist',
-			array( 'wl_namespace', 'wl_title' ),
-			array(
+			[ 'wl_namespace', 'wl_title' ],
+			[
 				'wl_user' => $this->getUser()->getId(),
-				'NOT wl_notificationtimestamp' => NULL
-			),
+				'NOT wl_notificationtimestamp' => null
+			],
 			__METHOD__,
 			$options
 		);
 
 		foreach ( $res as $row ) {
 			$watchedTitle = \Title::newFromText( $row->wl_title, $row->wl_namespace );
-			if( $watchedTitle instanceof \Title === false
+			if ( $watchedTitle instanceof \Title === false
 				|| $watchedTitle->exists() == false ) {
 				continue;
 			}
 
 			$displayText = \BsStringHelper::shorten(
 				$watchedTitle->getPrefixedText(),
-				array( 'max-length' => $maxLength, 'position' => 'middle' )
+				[ 'max-length' => $maxLength, 'position' => 'middle' ]
 			);
 
 			$watchlist[] = [
