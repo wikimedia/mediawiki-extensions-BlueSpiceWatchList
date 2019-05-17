@@ -62,6 +62,9 @@
 			"i18n"
 		]
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\WatchList\\": "src/"
+	},
 	"AutoloadClasses": {
 		"WatchList": "WatchList.class.php"
 	},
