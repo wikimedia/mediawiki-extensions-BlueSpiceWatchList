@@ -30,6 +30,11 @@
 			}
 		}
 	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"\\BlueSpice\\WatchList\\Hook\\BeforePageDisplay\\AddModules::callback"
+		]
+	},
 	"ResourceModules": {
 		"ext.bluespice.watchlist.styles": {
 			"styles": "bluespice.watchlist.css"
