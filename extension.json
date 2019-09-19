@@ -54,7 +54,8 @@
 				"bs-watchlist-grid-watchlist-column-link-header",
 				"bs-watchlist-grid-watchlist-column-hasunreadchanges-header",
 				"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip",
-				"bs-watchlist-grid-watchlist-label-filter"
+				"bs-watchlist-grid-watchlist-label-filter",
+				"bs-watchlist-grid-watchlist-column-istalkpage-header"
 			]
 		}
 	},
