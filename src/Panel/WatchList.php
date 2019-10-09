@@ -61,7 +61,7 @@ class WatchList extends BasePanel implements IPanel {
 			$maxLength = (int)$this->params['maxtitlelength'];
 		}
 
-		$count = $this->getUser()->getOption( 'bs-watchlist-pref-widgetlimit' );
+		$count = 7;
 		if ( isset( $this->params['count'] ) ) {
 			$count = (int)$this->params['count'];
 		}

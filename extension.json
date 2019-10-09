@@ -1,13 +1,16 @@
 {
 	"name": "BlueSpiceWatchList",
-	"version": "3.0.1",
+	"version": "3.1.0",
 	"url": "https://help.bluespice.com/index.php/WatchList",
 	"author": "Robert Vogel",
 	"descriptionmsg": "bs-watchlist-desc",
 	"type": "bluespice",
 	"license-name": "GPL-3.0-only",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": "~1.31",
+		"extensions": {
+			"BlueSpiceFoundation": "~3.1"
+		}
 	},
 	"attributes": {
 		"BlueSpiceFoundation": {
@@ -27,9 +30,33 @@
 			}
 		}
 	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"\\BlueSpice\\WatchList\\Hook\\BeforePageDisplay\\AddModules::callback"
+		]
+	},
 	"ResourceModules": {
 		"ext.bluespice.watchlist.styles": {
 			"styles": "bluespice.watchlist.css"
+		},
+		"ext.bluespice.watchlist.myWatchlistWindow.bootstrap": {
+			"scripts": [
+				"ext.bluespice.watchlist.myWatchlistWindow.bootstrap.js"
+			]
+		},
+		"ext.bluespice.watchlist.myWatchlistWindow": {
+			"styles": [
+				"ext.bluespice.watchlist.myWatchlistWindow.css"
+			],
+			"messages": [
+				"bs-watchlist-window-watchlist-title",
+				"bs-watchlist-window-watchlist-intro",
+				"bs-watchlist-grid-watchlist-column-link-header",
+				"bs-watchlist-grid-watchlist-column-hasunreadchanges-header",
+				"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip",
+				"bs-watchlist-grid-watchlist-label-filter",
+				"bs-watchlist-grid-watchlist-column-istalkpage-header"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -46,16 +73,6 @@
 	},
 	"AutoloadClasses": {
 		"WatchList": "WatchList.class.php"
-	},
-	"DefaultUserOptions": {
-		"bs-watchlist-pref-widgetlimit": 10,
-		"bs-watchlist-pref-widgetsortodr": "time"
-	},
-	"Hooks": {
-		"GetPreferences": [
-			"\\BlueSpice\\WatchList\\Hook\\GetPreferences\\WidgetLimit::callback",
-			"\\BlueSpice\\WatchList\\Hook\\GetPreferences\\WidgetSortOdr::callback"
-		]
 	},
 	"load_composer_autoloader" : true,
 	"manifest_version": 2
