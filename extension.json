@@ -1,6 +1,6 @@
 {
 	"name": "BlueSpiceWatchList",
-	"version": "3.1.0",
+	"version": "3.2.0-alpha",
 	"url": "https://help.bluespice.com/index.php/WatchList",
 	"author": "Robert Vogel",
 	"descriptionmsg": "bs-watchlist-desc",
@@ -9,7 +9,7 @@
 	"requires": {
 		"MediaWiki": "~1.31",
 		"extensions": {
-			"BlueSpiceFoundation": "~3.1"
+			"BlueSpiceFoundation": "~3.2"
 		}
 	},
 	"attributes": {
