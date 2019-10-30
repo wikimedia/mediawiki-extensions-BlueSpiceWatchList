@@ -74,11 +74,14 @@ class WatchList extends BasePanel implements IPanel {
 
 		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select(
-			'watchlist',
+			[ 'watchlist', 'page' ],
 			[ 'wl_namespace', 'wl_title' ],
 			[
 				'wl_user' => $this->getUser()->getId(),
-				'NOT wl_notificationtimestamp' => null
+				'NOT wl_notificationtimestamp' => null,
+				'wl_title = page_title',
+				'wl_namespace = page_namespace',
+				"page_content_model" => [ "", "wikitext" ]
 			],
 			__METHOD__,
 			$options
