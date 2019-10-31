@@ -1,7 +1,7 @@
 {
 	"name": "BlueSpiceWatchList",
 	"version": "3.2.0-alpha",
-	"url": "https://help.bluespice.com/index.php/WatchList",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceWatchList",
 	"author": "Robert Vogel",
 	"descriptionmsg": "bs-watchlist-desc",
 	"type": "bluespice",
