@@ -2,16 +2,34 @@
 
 namespace BlueSpice\WatchList\Panel;
 
+use User;
+use QuickTemplate;
 use BlueSpice\Calumma\IPanel;
 use BlueSpice\Calumma\Panel\BasePanel;
 
 class WatchList extends BasePanel implements IPanel {
+	/**
+	 *
+	 * @var array
+	 */
 	protected $params = [];
 
+	/**
+	 *
+	 * @param QuickTemplate $sktemplate
+	 * @param array $params
+	 * @return WatchList
+	 */
 	public static function factory( $sktemplate, $params ) {
 		return new self( $sktemplate, $params );
 	}
 
+	/**
+	 *
+	 * @param QuickTemplate $skintemplate
+	 * @param array $params
+	 * @return WatchList
+	 */
 	public function __construct( $skintemplate, $params ) {
 		parent::__construct( $skintemplate );
 		$this->params = $params;
@@ -45,14 +63,26 @@ class WatchList extends BasePanel implements IPanel {
 		return $linkListGroup->getHtml();
 	}
 
+	/**
+	 *
+	 * @return User
+	 */
 	protected function getUser() {
 		return $this->skintemplate->getSkin()->getUser();
 	}
 
+	/**
+	 *
+	 * @return \Title
+	 */
 	protected function getTitle() {
 		return $this->skintemplate->getSkin()->getTitle();
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	protected function getWatchlistTitles() {
 		$watchlist = [];
 
