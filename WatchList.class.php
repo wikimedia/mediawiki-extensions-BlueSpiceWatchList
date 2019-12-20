@@ -94,23 +94,49 @@ class WatchList extends BsExtensionMW {
 		$oParser->getOutput()->setProperty( 'bs-tag-watchlist', 1 );
 
 		// Get arguments
-		$iCount          = BsCore::sanitizeArrayEntry( $aAttributes, 'count',          5,          BsPARAMTYPE::INT );
-		$iMaxTitleLength = BsCore::sanitizeArrayEntry( $aAttributes, 'maxtitlelength', 20,         BsPARAMTYPE::INT );
-		$sOrder          = BsCore::sanitizeArrayEntry( $aAttributes, 'order',          'pagename', BsPARAMTYPE::SQL_STRING ); // 'pagename|time'
+		$iCount = BsCore::sanitizeArrayEntry(
+			$aAttributes,
+			'count',
+			5,
+			BsPARAMTYPE::INT
+		);
+		$iMaxTitleLength = BsCore::sanitizeArrayEntry(
+			$aAttributes,
+			'maxtitlelength',
+			20,
+			BsPARAMTYPE::INT
+		);
+		$sOrder = BsCore::sanitizeArrayEntry(
+			$aAttributes,
+			'order',
+			// 'pagename|time'
+			'pagename',
+			BsPARAMTYPE::SQL_STRING
+		);
 
 		// Validation
 		$oErrorListView = new ViewTagErrorList( $this );
-		$oValidationICount = BsValidator::isValid( 'IntegerRange', $iCount, [ 'fullResponse' => true, 'lowerBoundary' => 1, 'upperBoundary' => 1000 ] );
+		$oValidationICount = BsValidator::isValid(
+			'IntegerRange',
+			$iCount,
+			[ 'fullResponse' => true, 'lowerBoundary' => 1, 'upperBoundary' => 1000 ]
+		);
 		if ( $oValidationICount->getErrorCode() ) {
 			$oErrorListView->addItem(
 				new ViewTagError( 'count: ' . wfMessage( $oValidationICount->getI18N() )->text() )
 			);
 		}
 
-		$oValidationIMaxTitleLength = BsValidator::isValid( 'IntegerRange', $iMaxTitleLength, [ 'fullResponse' => true, 'lowerBoundary' => 5, 'upperBoundary' => 500 ] );
+		$oValidationIMaxTitleLength = BsValidator::isValid(
+			'IntegerRange',
+			$iMaxTitleLength,
+			[ 'fullResponse' => true, 'lowerBoundary' => 5, 'upperBoundary' => 500 ]
+		);
 		if ( $oValidationIMaxTitleLength->getErrorCode() ) {
 			$oErrorListView->addItem(
-				new ViewTagError( 'maxtitlelength: ' . wfMessage( $oValidationIMaxTitleLength->getI18N() )->text() )
+				new ViewTagError(
+					'maxtitlelength: ' . wfMessage( $oValidationIMaxTitleLength->getI18N() )->text()
+				)
 			);
 		}
 
@@ -134,7 +160,12 @@ class WatchList extends BsExtensionMW {
 			return $oErrorListView->execute();
 		}
 
-		$oWatchList = $this->fetchWatchlist( $this->getUser(), $iCount, $iMaxTitleLength, $sOrder );
+		$oWatchList = $this->fetchWatchlist(
+			$this->getUser(),
+			$iCount,
+			$iMaxTitleLength,
+			$sOrder
+		);
 		return $oParser->recursiveTagParseFully( $oWatchList->execute() );
 	}
 
@@ -146,7 +177,8 @@ class WatchList extends BsExtensionMW {
 	 * @param string $sOrder
 	 * @return ViewBaseElement
 	 */
-	private function fetchWatchlist( $oCurrentUser, $iCount = 10, $iMaxTitleLength = 50, $sOrder = 'pagename' ) {
+	private function fetchWatchlist( $oCurrentUser, $iCount = 10, $iMaxTitleLength = 50,
+		$sOrder = 'pagename' ) {
 		$aWatchlist = [];
 
 		$aOptions = [];
