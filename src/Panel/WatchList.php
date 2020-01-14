@@ -2,11 +2,11 @@
 
 namespace BlueSpice\WatchList\Panel;
 
-use User;
-use QuickTemplate;
 use BlueSpice\Calumma\IPanel;
 use BlueSpice\Calumma\Panel\BasePanel;
+use QuickTemplate;
 use Skins\Chameleon\IdRegistry;
+use User;
 
 class WatchList extends BasePanel implements IPanel {
 	/**
