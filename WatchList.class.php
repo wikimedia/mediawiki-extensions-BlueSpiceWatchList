@@ -41,7 +41,6 @@ class WatchList extends BsExtensionMW {
 	 * Initialization of WatchList extension
 	 */
 	protected function initExt() {
-		$this->setHook( 'BeforePageDisplay' );
 		$this->setHook( 'ParserFirstCallInit' );
 		$this->setHook( 'BSInsertMagicAjaxGetData' );
 		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
@@ -242,16 +241,4 @@ class WatchList extends BsExtensionMW {
 		return true;
 	}
 
-	/**
-	 * Adds CSS to Page
-	 *
-	 * @param OutputPage &$out
-	 * @param Skin &$skin
-	 *
-	 * @return bool
-	 */
-	public function onBeforePageDisplay( &$out, &$skin ) {
-		$out->addModuleStyles( 'ext.bluespice.watchlist.styles' );
-		return true;
-	}
 }
