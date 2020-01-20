@@ -33,7 +33,8 @@
 	"Hooks": {
 		"BeforePageDisplay": [
 			"\\BlueSpice\\WatchList\\Hook\\BeforePageDisplay\\AddModules::callback"
-		]
+		],
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\WatchList\\Hook\\BSInsertMagicAjaxGetData\\AddWatchListTag::callback"
 	},
 	"ResourceModules": {
 		"ext.bluespice.watchlist.styles": {
