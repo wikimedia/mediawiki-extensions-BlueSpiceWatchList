@@ -42,32 +42,7 @@ class WatchList extends BsExtensionMW {
 	 */
 	protected function initExt() {
 		$this->setHook( 'ParserFirstCallInit' );
-		$this->setHook( 'BSInsertMagicAjaxGetData' );
 		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
-	}
-
-	/**
-	 * Inject tags into InsertMagic
-	 * @param Object &$oResponse reference
-	 * @param String $type
-	 * @return always true to keep hook running
-	 */
-	public function onBSInsertMagicAjaxGetData( &$oResponse, $type ) {
-		if ( $type != 'tags' ) {
-			return true;
-		}
-
-		$oDescriptor = new stdClass();
-		$oDescriptor->id = 'bs:watchlist';
-		$oDescriptor->type = 'tag';
-		$oDescriptor->name = 'watchlist';
-		$oDescriptor->desc = wfMessage( 'bs-watchlist-tag-watchlist-desc' )->plain();
-		$oDescriptor->code = '<bs:watchlist />';
-		$oDescriptor->previewable = false;
-		$oDescriptor->helplink = 'https://help.bluespice.com/index.php/WatchList';
-		$oResponse->result[] = $oDescriptor;
-
-		return true;
 	}
 
 	/**
