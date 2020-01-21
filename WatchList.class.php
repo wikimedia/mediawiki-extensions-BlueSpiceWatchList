@@ -42,7 +42,6 @@ class WatchList extends BsExtensionMW {
 	 */
 	protected function initExt() {
 		$this->setHook( 'ParserFirstCallInit' );
-		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
 	}
 
 	/**
@@ -199,21 +198,6 @@ class WatchList extends BsExtensionMW {
 		}
 
 		return $oWatchedArticlesListView;
-	}
-
-	/**
-	 * Register tag with UsageTracker extension
-	 * @param array &$aCollectorsConfig
-	 * @return Always true to keep hook running
-	 */
-	public function onBSUsageTrackerRegisterCollectors( &$aCollectorsConfig ) {
-		$aCollectorsConfig['bs:watchlist'] = [
-			'class' => 'Property',
-			'config' => [
-				'identifier' => 'bs-tag-watchlist'
-			]
-		];
-		return true;
 	}
 
 }
