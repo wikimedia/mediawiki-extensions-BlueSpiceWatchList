@@ -15,7 +15,7 @@ Ext.define( 'BS.WatchList.window.MyWatchlist', {
 		this.strWatchlist = new BS.store.BSApi( {
 			apiAction: 'bs-watchlist-store',
 			fields: [ 'page_link', 'page_prefixedtext', 'has_unread_changes', 'inspect_changes_url',
-				'is_talk_page' ]
+				'is_talk_page' ],
 		} );
 
 		this.sfFilter = new MWExt.form.field.Search( {
@@ -125,7 +125,7 @@ Ext.define( 'BS.WatchList.window.MyWatchlist', {
 		var pageName = record.get( 'page_prefixedtext' );
 		var me = this;
 
-		mw.loader.using( 'mediawiki.api.watch' ).done( function() {
+		mw.loader.using( 'mediawiki.api' ).done( function() {
 			var api = new mw.Api();
 			api.unwatch( pageName ).done( function() {
 				me.strWatchlist.reload();
