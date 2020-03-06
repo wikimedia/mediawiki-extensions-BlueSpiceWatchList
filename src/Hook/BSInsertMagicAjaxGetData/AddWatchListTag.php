@@ -37,7 +37,7 @@ class AddWatchListTag extends BSInsertMagicAjaxGetData {
 	 * @return string
 	 */
 	private function getHelpLink() {
-		return $this->getServices()->getBSExtensionFactory()
+		return $this->getServices()->getService( 'BSExtensionFactory' )
 			->getExtension( 'BlueSpiceWatchList' )->getUrl();
 	}
 
