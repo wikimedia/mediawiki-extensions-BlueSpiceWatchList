@@ -175,11 +175,13 @@ class WatchList extends BsExtensionMW {
 		$oWatchedArticlesListView = new ViewBaseElement();
 		$oWatchedArticlesListView->setTemplate( '*{WIKILINK}' . "\n" );
 		$util = \BlueSpice\Services::getInstance()->getService( 'BSUtilityFactory' );
+
+		$pm = \MediaWiki\MediaWikiServices::getInstance()->getPermissionManager();
 		foreach ( $res as $row ) {
 			$oWatchedTitle = Title::newFromText( $row->wl_title, $row->wl_namespace );
 			if ( $oWatchedTitle === null
 				|| $oWatchedTitle->exists() === false
-				|| $oWatchedTitle->userCan( 'read' ) === false ) {
+				|| $pm->userCan( 'read', $oCurrentUser, $oWatchedTitle ) === false ) {
 				continue;
 			}
 			$sDisplayTitle = BsStringHelper::shorten(
