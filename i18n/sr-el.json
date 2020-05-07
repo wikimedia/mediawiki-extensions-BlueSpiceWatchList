@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-watchlist-window-watchlist-title": "Spisak nadgledanja",
 	"bs-watchlist-grid-watchlist-column-link-header": "Stranica",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Nepročitane promene",
