@@ -16,6 +16,10 @@ Ext.define( 'BS.WatchList.window.MyWatchlist', {
 			apiAction: 'bs-watchlist-store',
 			fields: [ 'page_link', 'page_prefixedtext', 'has_unread_changes', 'inspect_changes_url',
 				'is_talk_page' ],
+			sorters: {
+				property: 'has_unread_changes',
+				direction: 'DESC'
+			}
 		} );
 
 		this.sfFilter = new MWExt.form.field.Search( {
