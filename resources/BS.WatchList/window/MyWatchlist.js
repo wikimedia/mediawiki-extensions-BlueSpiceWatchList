@@ -14,8 +14,13 @@ Ext.define( 'BS.WatchList.window.MyWatchlist', {
 
 		this.strWatchlist = new BS.store.BSApi( {
 			apiAction: 'bs-watchlist-store',
-			fields: [ 'page_link', 'page_prefixedtext', 'has_unread_changes', 'inspect_changes_url',
-				'is_talk_page' ],
+			fields: [
+				'page_link',
+				'page_prefixedtext',
+				'has_unread_changes',
+				'unread_changes_diff_revid',
+				'is_talk_page'
+			],
 			sorters: {
 				property: 'has_unread_changes',
 				direction: 'DESC'
@@ -110,13 +115,19 @@ Ext.define( 'BS.WatchList.window.MyWatchlist', {
 	renderHasUnreadChanges: function( value, meta, record ) {
 		var badge = '';
 		if( record.get( 'has_unread_changes' ) ) {
+			//HINT "Inspect all unread changes" URL looks like this:
+			//https://wiki/index.php?title=XYZ&diff=0&oldid=108279
+			var url = mw.util.getUrl( record.get( 'page_prefixedtext' ), {
+				diff: 0,
+				oldid: record.get( 'unread_changes_diff_revid' )
+			} );
 			badge = mw.html.element(
 				'a',
 				{
 					'class': 'label label-warning bs-icon-eye inspect-changes-icon',
 					'title': mw.message( 'bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip' ).plain(),
 					'style': 'margin-left: 0.5em',
-					'href': record.get( 'inspect_changes_url' ),
+					'href': url,
 					'target': '_blank'
 				},
 				' ' // must be space to keep '.label' visible
