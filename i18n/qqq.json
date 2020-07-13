@@ -1,11 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226",
 			"Purodha",
-			"Robby",
-			"Shirayuki",
-			"Stephan Muggli <muggli@hallowelt.biz>"
+			"Robby"
 		]
 	},
 	"bs-watchlist-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of watchlist extension",
