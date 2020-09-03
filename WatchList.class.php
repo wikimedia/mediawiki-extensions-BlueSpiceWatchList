@@ -30,6 +30,7 @@
  */
 
 // Last review MRG (01.07.11 15:41)
+use MediaWiki\MediaWikiServices;
 
 /**
  * Base class for WatchList extension
@@ -174,9 +175,9 @@ class WatchList extends BsExtensionMW {
 
 		$oWatchedArticlesListView = new ViewBaseElement();
 		$oWatchedArticlesListView->setTemplate( '*{WIKILINK}' . "\n" );
-		$util = \BlueSpice\Services::getInstance()->getService( 'BSUtilityFactory' );
+		$util = MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' );
 
-		$pm = \MediaWiki\MediaWikiServices::getInstance()->getPermissionManager();
+		$pm = MediaWikiServices::getInstance()->getPermissionManager();
 		foreach ( $res as $row ) {
 			$oWatchedTitle = Title::newFromText( $row->wl_title, $row->wl_namespace );
 			if ( $oWatchedTitle === null
