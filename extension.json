@@ -16,7 +16,7 @@
 		"BlueSpiceFoundation": {
 			"Extensions": {
 				"BlueSpiceWatchList": {
-					"className": "WatchList",
+					"className": "\\BlueSpice\\WatchList\\Extension",
 					"extPath": "/BlueSpiceWatchList"
 				}
 			},
@@ -75,9 +75,6 @@
 	},
 	"AutoloadNamespaces": {
 		"BlueSpice\\WatchList\\": "src/"
-	},
-	"AutoloadClasses": {
-		"WatchList": "WatchList.class.php"
 	},
 	"load_composer_autoloader" : true,
 	"manifest_version": 2
