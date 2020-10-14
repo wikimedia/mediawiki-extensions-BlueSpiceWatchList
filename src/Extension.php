@@ -28,13 +28,14 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GPL-3.0-only
  * @filesource
  */
+namespace BlueSpice\WatchList;
 
-// Last review MRG (01.07.11 15:41)
+use BlueSpice\Extension as BaseExtension;
 
 /**
  * Base class for WatchList extension
  * @package BlueSpice_Extensions
  * @subpackage WantedArticle
  */
-class WatchList extends BsExtensionMW {
+class Extension extends BaseExtension {
 }
