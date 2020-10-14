@@ -19,6 +19,9 @@
 					"className": "WatchList",
 					"extPath": "/BlueSpiceWatchList"
 				}
+			},
+			"TagRegistry": {
+				"watchlist": "\\BlueSpice\\WatchList\\Tag\\WatchList"
 			}
 		},
 		"BlueSpiceUserSidebar": {
