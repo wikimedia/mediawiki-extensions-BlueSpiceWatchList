@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
+			"Eleassar",
 			"Skalcaa"
 		]
 	},
-	"bs-watchlist-desc": "Doda widget seznam opazovanj in oznako",
+	"bs-watchlist-desc": "Doda gradnik in oznako spiska nadzorov",
 	"bs-watchlist-title-sidebar": "Seznam opazovanj",
 	"bs-watchlist-pref-sort-time": "Čas",
 	"bs-watchlist-pref-sort-title": "Naslov",
