@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin",
 			"Esketti",
+			"Mainframe98",
 			"Siebrand",
-			"Mainframe98"
+			"Sjoerddebruin"
 		]
 	},
 	"bs-watchlist-desc": "Voegt een volglijstwidget en -label toe",
