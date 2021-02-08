@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"W"
+		]
+	},
+	"bs-watchlist-title-sidebar": "Сьпіс назіраньня",
+	"bs-watchlist-pref-sort-time": "Час",
+	"bs-watchlist-pref-sort-title": "Загаловак",
+	"bs-watchlist-window-watchlist-title": "Сьпіс назіраньня",
+	"bs-watchlist-grid-watchlist-column-link-header": "Старонка",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Непрачытаныя зьмяненьні",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Старонка гутарак"
+}
