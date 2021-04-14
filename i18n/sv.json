@@ -3,6 +3,7 @@
 		"authors": [
 			"Jopparn",
 			"Lokal Profil",
+			"Sabelöga",
 			"WikiPhoenix"
 		]
 	},
@@ -12,6 +13,7 @@
 	"bs-watchlist-pref-sort-title": "Titel",
 	"bs-watchlist-tag-watchlist-desc": "Visar artiklarna på din bevakningslista som har nyligen ändrats.",
 	"bs-watchlist-window-watchlist-title": "Bevakningslista",
+	"bs-watchlist-window-watchlist-intro": "Detta är en översikt över alla sidor på din bevakningslista. Du kan också byta till den [[Special:Watchlist|klassiska bevakningslistan]].",
 	"bs-watchlist-grid-watchlist-column-link-header": "Sida",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Olästa ändringar",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspektera ändringar",
