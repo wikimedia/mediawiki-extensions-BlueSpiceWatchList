@@ -13,5 +13,6 @@
 	"bs-watchlist-grid-watchlist-column-link-header": "문서",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "미확인한 변경사항",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "토론 문서",
-	"bs-watchlist-grid-watchlist-label-filter": "필터"
+	"bs-watchlist-grid-watchlist-label-filter": "필터",
+	"bs-watchlist-desc": "주시문서 목록 위젯과 태그 추가"
 }
