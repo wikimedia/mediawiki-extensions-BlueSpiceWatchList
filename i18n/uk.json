@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"Piramidion",
 			"Ата"
 		]
 	},
-	"bs-watchlist-desc": "Додає віджет і теґ списку спостереження",
+	"bs-watchlist-desc": "Додає віджет і тег списку спостереження",
 	"bs-watchlist-title-sidebar": "Список спостереження",
 	"bs-watchlist-pref-sort-time": "Час",
 	"bs-watchlist-pref-sort-title": "Назва",
