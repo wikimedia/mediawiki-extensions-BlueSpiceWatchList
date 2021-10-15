@@ -14,11 +14,11 @@ use ValueValidators\RangeValidator;
 use ValueValidators\StringValidator;
 
 class WatchList extends Tag {
-	const ATTR_COUNT = 'count';
-	const ATTR_MAX_TITLE_LENGTH = 'maxtitlelength';
-	const ATTR_ORDER = 'order';
-	const ATTR_ORDER_PAGE_NAME = 'pagename';
-	const ATTR_ORDER_TIME = 'time';
+	public const ATTR_COUNT = 'count';
+	public const ATTR_MAX_TITLE_LENGTH = 'maxtitlelength';
+	public const ATTR_ORDER = 'order';
+	public const ATTR_ORDER_PAGE_NAME = 'pagename';
+	public const ATTR_ORDER_TIME = 'time';
 
 	/**
 	 *
