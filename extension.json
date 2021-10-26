@@ -31,6 +31,16 @@
 					"default": true
 				}
 			}
+		},
+		"BlueSpiceDiscovery": {
+			"AttentionIndicatorRegistry": {
+				"watchlist": "\\BlueSpice\\WatchList\\AttentionIndicator\\WatchList::factory"
+			}
+		}
+	},
+	"HookHandlers": {
+		"skin": {
+			"class": "\\BlueSpice\\WatchList\\HookHandler\\Skin"
 		}
 	},
 	"Hooks": {
@@ -38,7 +48,8 @@
 			"\\BlueSpice\\WatchList\\Hook\\BeforePageDisplay\\AddModules::callback"
 		],
 		"BSInsertMagicAjaxGetData": "\\BlueSpice\\WatchList\\Hook\\BSInsertMagicAjaxGetData\\AddWatchListTag::callback",
-		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\WatchList\\Hook\\BSUsageTrackerRegisterCollectors\\AddWatchListTag::callback"
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\WatchList\\Hook\\BSUsageTrackerRegisterCollectors\\AddWatchListTag::callback",
+		"PersonalUrls": "skin"
 	},
 	"ResourceModules": {
 		"ext.bluespice.watchlist.styles": {
