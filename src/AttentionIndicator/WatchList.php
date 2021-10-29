@@ -14,16 +14,6 @@ use RequestContext;
 class WatchList extends AttentionIndicator {
 
 	/**
-	 * @return bool
-	 */
-	public function hasIndication(): bool {
-		$res = ( new Store( RequestContext::getMain(), false ) )->getReader()->read(
-			new ReaderParams( $this->makeReaderParams() )
-		);
-		return $res->getTotal() > 0;
-	}
-
-	/**
 	 * @return array
 	 */
 	protected function makeReaderParams(): array {
@@ -40,9 +30,18 @@ class WatchList extends AttentionIndicator {
 					Numeric::KEY_VALUE => $this->user->getId(),
 				],
 			],
-			// for now until we support the number $this->getIndicationCount()
-			ReaderParams::PARAM_LIMIT => 1,
+			ReaderParams::PARAM_LIMIT => ReaderParams::LIMIT_INFINITE,
 		];
+	}
+
+	/**
+	 * @return int
+	 */
+	protected function doIndicationCount(): int {
+		$res = ( new Store( RequestContext::getMain(), false ) )->getReader()->read(
+			new ReaderParams( $this->makeReaderParams() )
+		);
+		return $res->getTotal();
 	}
 
 }
