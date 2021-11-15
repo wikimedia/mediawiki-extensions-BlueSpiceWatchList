@@ -5,5 +5,8 @@
 		]
 	},
 	"bs-watchlist-pref-sort-title": "Tìtulu",
-	"bs-watchlist-grid-watchlist-column-link-header": "Pàggina"
+	"bs-watchlist-grid-watchlist-column-link-header": "Pàggina",
+	"bs-watchlist-title-sidebar": "Lista taliata",
+	"bs-watchlist-window-watchlist-title": "Lista taliata",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Pàggina di discussioni"
 }
