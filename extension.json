@@ -36,6 +36,11 @@
 			"AttentionIndicatorRegistry": {
 				"watchlist": "\\BlueSpice\\WatchList\\AttentionIndicator\\WatchList::factory"
 			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
+				"ext.bluespice.watchlist.visualEditor"
+			]
 		}
 	},
 	"HookHandlers": {
@@ -72,6 +77,25 @@
 				"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip",
 				"bs-watchlist-grid-watchlist-label-filter",
 				"bs-watchlist-grid-watchlist-column-istalkpage-header"
+			]
+		},
+		"ext.bluespice.watchlist.visualEditor": {
+			"scripts": [
+				"bs.watchlist/util/tag/WatchListDefinition.js"
+			],
+			"messages": [
+				"bs-watchlist-tag-watchlist-desc",
+				"bs-watchlist-ve-watchlistinspector-title",
+				"bs-watchlist-ve-watchlist-attr-count-label",
+				"bs-watchlist-tag-watchlist-attr-count-help",
+				"bs-watchlist-ve-watchlist-attr-maxtitlelength-label",
+				"bs-watchlist-tag-watchlist-attr-maxtitlelength-help",
+				"bs-watchlist-ve-watchlist-attr-order-label",
+				"bs-watchlist-tag-watchlist-attr-order-help",
+				"bs-watchlist-ve-watchlist-attr-pagename-label",
+				"bs-watchlist-tag-watchlist-attr-pagename-help",
+				"bs-watchlist-ve-watchlist-attr-time-label",
+				"bs-watchlist-tag-watchlist-attr-time-help"
 			]
 		}
 	},
