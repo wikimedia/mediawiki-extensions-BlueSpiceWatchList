@@ -19,5 +19,16 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Header of column that holds information about whether a change on a watched page is unread",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Tooltip for an icon that indicates whether a change on a watched page is unread",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Header of column that indicates whether a page is within a talk namespace",
-	"bs-watchlist-grid-watchlist-label-filter": "Label for an input field that filters the list of watchlist entries by the page name"
+	"bs-watchlist-grid-watchlist-label-filter": "Label for an input field that filters the list of watchlist entries by the page name",
+	"bs-watchlist-ve-watchlistinspector-title": "Title for watchlist tag",
+	"bs-watchlist-ve-watchlist-attr-count-label": "Label for the parameter \"count\"",
+	"bs-watchlist-tag-watchlist-attr-count-help": "Help message for the parameter \"count\"",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Label for the parameter \"maxtitlelength\"",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Help message for the parameter \"maxtitlelength\"",
+	"bs-watchlist-ve-watchlist-attr-order-label": "Label for the parameter \"order\"",
+	"bs-watchlist-tag-watchlist-attr-order-help": "Help message for the parameter \"order\"",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Label for the parameter \"pagename\"",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "Help message for the parameter \"pagename\"",
+	"bs-watchlist-ve-watchlist-attr-time-label": "Label for the parameter \"time\"",
+	"bs-watchlist-tag-watchlist-attr-time-help": "Help message for the parameter \"time\""
 }

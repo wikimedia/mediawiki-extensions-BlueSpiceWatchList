@@ -25,6 +25,7 @@ class AddWatchListTag extends BSInsertMagicAjaxGetData {
 			'name' => 'watchlist',
 			'desc' => $this->msg( 'bs-watchlist-tag-watchlist-desc' )->text(),
 			'code' => '<bs:watchlist />',
+			'mwvecommand' => 'watchlistCommand',
 			'previewable' => false,
 			'helplink' => $this->getHelpLink()
 		];
