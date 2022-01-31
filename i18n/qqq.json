@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Liuxinyu970226",
 			"Purodha",
 			"Robby",
@@ -25,10 +26,10 @@
 	"bs-watchlist-tag-watchlist-attr-count-help": "Help message for the parameter \"count\"",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Label for the parameter \"maxtitlelength\"",
 	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Help message for the parameter \"maxtitlelength\"",
-	"bs-watchlist-ve-watchlist-attr-order-label": "Label for the parameter \"order\"",
+	"bs-watchlist-ve-watchlist-attr-order-label": "Label for the parameter \"order\"\n\n{{Identical|Order}}",
 	"bs-watchlist-tag-watchlist-attr-order-help": "Help message for the parameter \"order\"",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Label for the parameter \"pagename\"",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Help message for the parameter \"pagename\"",
-	"bs-watchlist-ve-watchlist-attr-time-label": "Label for the parameter \"time\"",
+	"bs-watchlist-ve-watchlist-attr-time-label": "Label for the parameter \"time\"\n\n{{Identical|Time}}",
 	"bs-watchlist-tag-watchlist-attr-time-help": "Help message for the parameter \"time\""
 }

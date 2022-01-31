@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"Meshkov.a",
 			"Okras",
 			"SuperPuperSteve",
+			"Tanzun",
 			"Vlad5250"
 		]
 	},
@@ -18,5 +20,16 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Непросмотренные изменения",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Инспектировать изменения",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Страница обсуждения",
-	"bs-watchlist-grid-watchlist-label-filter": "Фильтр"
+	"bs-watchlist-grid-watchlist-label-filter": "Фильтр",
+	"bs-watchlist-ve-watchlistinspector-title": "Список наблюдения",
+	"bs-watchlist-ve-watchlist-attr-count-label": "Количество",
+	"bs-watchlist-tag-watchlist-attr-count-help": "Помощь в подсчёте",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Максимальный размер заголовка",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Для справки: Максимальная длина заголовка",
+	"bs-watchlist-ve-watchlist-attr-order-label": "Порядок",
+	"bs-watchlist-tag-watchlist-attr-order-help": "Заказать справочную информацию",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Название документа",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "Справочная информация о названии документа",
+	"bs-watchlist-ve-watchlist-attr-time-label": "Время",
+	"bs-watchlist-tag-watchlist-attr-time-help": "Для справки: Время"
 }

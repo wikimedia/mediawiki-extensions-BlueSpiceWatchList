@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"MathXplore",
 			"Otokoume",
 			"Shirayuki"
 		]
@@ -8,5 +9,9 @@
 	"bs-watchlist-desc": "ウォッチリストのウィジェットとタグを追加する",
 	"bs-watchlist-title-sidebar": "ウォッチリスト",
 	"bs-watchlist-pref-sort-time": "日時",
-	"bs-watchlist-pref-sort-title": "ページ名"
+	"bs-watchlist-pref-sort-title": "ページ名",
+	"bs-watchlist-ve-watchlistinspector-title": "ウォッチリスト",
+	"bs-watchlist-ve-watchlist-attr-count-label": "カウント",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "ページ名",
+	"bs-watchlist-ve-watchlist-attr-time-label": "時刻"
 }
