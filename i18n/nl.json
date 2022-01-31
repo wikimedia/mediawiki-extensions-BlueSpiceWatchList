@@ -4,6 +4,7 @@
 			"Esketti",
 			"Mainframe98",
 			"McDutchie",
+			"Nickthijssen1994",
 			"Siebrand",
 			"Sjoerddebruin"
 		]
@@ -18,5 +19,9 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Onbezochte wijzigingen",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Wijzigingen inspecteren",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Overlegpagina",
-	"bs-watchlist-grid-watchlist-label-filter": "Filteren"
+	"bs-watchlist-grid-watchlist-label-filter": "Filteren",
+	"bs-watchlist-ve-watchlistinspector-title": "Volglijst",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Maximale titel lengte",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Paginanaam",
+	"bs-watchlist-ve-watchlist-attr-time-label": "Tijd"
 }

@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Hedda",
-			"Sayginer"
+			"Sayginer",
+			"Sqances"
 		]
 	},
 	"bs-watchlist-desc": "Bir izleme listesi widget'ı ve etiketi ekler",
@@ -17,5 +19,11 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Okunmamış değişiklikler",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Değişiklikleri inceleyin",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Tartışma sayfası",
-	"bs-watchlist-grid-watchlist-label-filter": "Filtre"
+	"bs-watchlist-grid-watchlist-label-filter": "Filtre",
+	"bs-watchlist-ve-watchlistinspector-title": "Takip listesi",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Maks başlık uzunluğu",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Sayfa adı",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "Sayfa adı yardım",
+	"bs-watchlist-ve-watchlist-attr-time-label": "Zaman",
+	"bs-watchlist-tag-watchlist-attr-time-help": "Zaman yardım"
 }
