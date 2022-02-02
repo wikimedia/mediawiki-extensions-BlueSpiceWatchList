@@ -21,12 +21,12 @@
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "דף שיחה",
 	"bs-watchlist-grid-watchlist-label-filter": "מסנן",
 	"bs-watchlist-ve-watchlistinspector-title": "רשימת המעקב",
-	"bs-watchlist-ve-watchlist-attr-count-label": "לספור",
-	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "אורך כותרת מקסימלי",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "עזרה לאורך כותרת מקסימלי",
+	"bs-watchlist-ve-watchlist-attr-count-label": "ספירה",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "אורך כותרת מרבי",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "עזרה לאורך כותרת מרבי",
 	"bs-watchlist-ve-watchlist-attr-order-label": "סדר",
-	"bs-watchlist-tag-watchlist-attr-order-help": "הזמנת עזרה",
-	"bs-watchlist-ve-watchlist-attr-pagename-label": "שם עמוד",
-	"bs-watchlist-tag-watchlist-attr-pagename-help": "עזרה לשם העמוד",
+	"bs-watchlist-tag-watchlist-attr-order-help": "עזרה לסדר",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "שם דף",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "עזרה לשם דף",
 	"bs-watchlist-ve-watchlist-attr-time-label": "זמן"
 }
