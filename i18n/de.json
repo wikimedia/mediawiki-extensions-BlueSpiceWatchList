@@ -3,7 +3,8 @@
 		"authors": [
 			"Metalhead64",
 			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Brettchenweber"
+			"Brettchenweber",
+			"ElBe"
 		]
 	},
 	"bs-watchlist-desc": "Fügt ein Beobachtungsliste-Widget und Tag hinzu",
@@ -18,5 +19,7 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Änderungen ansehen",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Diskussionsseite",
 	"bs-watchlist-grid-watchlist-label-filter": "Filter",
+	"bs-watchlist-ve-watchlistinspector-title": "Beobachtungsliste",
+	"bs-watchlist-ve-watchlist-attr-count-label": "Anzahl",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Seitenname"
 }

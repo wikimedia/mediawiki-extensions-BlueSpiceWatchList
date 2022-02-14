@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"আফতাবুজ্জামান"
+			"আফতাবুজ্জামান",
+			"খাত্তাব হাসান"
 		]
 	},
 	"bs-watchlist-window-watchlist-title": "নজরতালিকা",
 	"bs-watchlist-grid-watchlist-column-link-header": "পাতা",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "আলাপ পাতা",
-	"bs-watchlist-grid-watchlist-label-filter": "ছাঁকনি"
+	"bs-watchlist-grid-watchlist-label-filter": "ছাঁকনি",
+	"bs-watchlist-ve-watchlist-attr-time-label": "সময়"
 }
