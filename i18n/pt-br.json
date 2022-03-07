@@ -4,7 +4,8 @@
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Felipe L. Ewald",
-			"Wiiformii"
+			"Wiiformii",
+			"Juan90264"
 		]
 	},
 	"bs-watchlist-desc": "Adiciona um widget de páginas vigiadas e etiqueta",
@@ -21,6 +22,7 @@
 	"bs-watchlist-grid-watchlist-label-filter": "Filtrar",
 	"bs-watchlist-ve-watchlistinspector-title": "Páginas vigiadas",
 	"bs-watchlist-ve-watchlist-attr-count-label": "Contagem",
+	"bs-watchlist-tag-watchlist-attr-count-help": "Contar ajuda",
 	"bs-watchlist-ve-watchlist-attr-order-label": "Ordem",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nome da página",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Ajuda do nome da página",
