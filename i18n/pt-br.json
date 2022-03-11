@@ -4,6 +4,7 @@
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Felipe L. Ewald",
+			"Juan90264",
 			"Wiiformii"
 		]
 	},
@@ -24,5 +25,6 @@
 	"bs-watchlist-ve-watchlist-attr-order-label": "Ordem",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nome da página",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Ajuda do nome da página",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Ajuda de tempo"
+	"bs-watchlist-tag-watchlist-attr-time-help": "Ajuda de tempo",
+	"bs-watchlist-tag-watchlist-attr-count-help": "Contar ajuda"
 }

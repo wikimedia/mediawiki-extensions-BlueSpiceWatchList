@@ -3,7 +3,8 @@
 		"authors": [
 			"Cwlin0416",
 			"Kly",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Winston Sung"
 		]
 	},
 	"bs-watchlist-desc": "添加監視清單小工具與標籤",
@@ -16,6 +17,6 @@
 	"bs-watchlist-grid-watchlist-column-link-header": "頁面",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "未讀變更",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "檢查變更",
-	"bs-watchlist-grid-watchlist-column-istalkpage-header": "對話頁面",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "討論頁",
 	"bs-watchlist-grid-watchlist-label-filter": "篩選"
 }

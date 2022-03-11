@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
+			"Ice bulldog",
 			"Piramidion",
+			"Samflint",
 			"Ата"
 		]
 	},
@@ -17,5 +19,14 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Непереглянуті зміни",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Інспектувати зміни",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Сторінка обговорення",
-	"bs-watchlist-grid-watchlist-label-filter": "Фільтр"
+	"bs-watchlist-grid-watchlist-label-filter": "Фільтр",
+	"bs-watchlist-ve-watchlistinspector-title": "Список спостереження",
+	"bs-watchlist-ve-watchlist-attr-count-label": "Кількість",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Максимальна довжина заголовка",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Довідка про максимальну довжину заголовка",
+	"bs-watchlist-ve-watchlist-attr-order-label": "Порядок",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Назва сторінки",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "Довідка щодо назви сторінки",
+	"bs-watchlist-ve-watchlist-attr-time-label": "Час",
+	"bs-watchlist-tag-watchlist-attr-time-help": "Довідка щодо часу"
 }
