@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"FiberAhmed",
 			"Meno25",
-			"ديفيد"
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"bs-watchlist-desc": "يضيف عنصر تحكم ووسم قائمة المراقبة",
@@ -16,5 +18,7 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "تغييرات غير مقروءة",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "فحص التغييرات",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "صفحة النقاش",
-	"bs-watchlist-grid-watchlist-label-filter": "المرشح"
+	"bs-watchlist-grid-watchlist-label-filter": "المرشح",
+	"bs-watchlist-ve-watchlistinspector-title": "قائمة المراقبة",
+	"bs-watchlist-ve-watchlist-attr-time-label": "الوقت"
 }

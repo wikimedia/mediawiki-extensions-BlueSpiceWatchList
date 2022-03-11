@@ -11,5 +11,6 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Ulæste ændringer",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspicer ændringer",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Diskussionsside",
-	"bs-watchlist-title-sidebar": "Overvågningsliste"
+	"bs-watchlist-title-sidebar": "Overvågningsliste",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Sidenvn"
 }
