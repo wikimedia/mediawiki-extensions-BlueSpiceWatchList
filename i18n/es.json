@@ -17,16 +17,5 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Cambios no leídos",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspeccionar cambios",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Página de discusión",
-	"bs-watchlist-grid-watchlist-label-filter": "Filtro",
-	"bs-watchlist-ve-watchlistinspector-title": "Watchlist",
-	"bs-watchlist-ve-watchlist-attr-count-label": "Cuenta",
-	"bs-watchlist-tag-watchlist-attr-count-help": "Ayuda de cuenta",
-	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Max título lenght",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Max titula lenght ayuda",
-	"bs-watchlist-ve-watchlist-attr-order-label": "Orden",
-	"bs-watchlist-tag-watchlist-attr-order-help": "Ayuda de orden",
-	"bs-watchlist-ve-watchlist-attr-pagename-label": "Pagename",
-	"bs-watchlist-tag-watchlist-attr-pagename-help": "Pagename Ayuda",
-	"bs-watchlist-ve-watchlist-attr-time-label": "Tiempo",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Ayuda de tiempo"
+	"bs-watchlist-grid-watchlist-label-filter": "Filtro"
 }
