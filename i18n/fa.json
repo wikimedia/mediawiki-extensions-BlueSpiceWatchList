@@ -3,10 +3,11 @@
 		"authors": [
 			"Dalba",
 			"Huji",
-			"Jeeputer"
+			"Jeeputer",
+			"Beginneruser"
 		]
 	},
-	"bs-watchlist-title-sidebar": "فهرست پی‌گیری‌ها",
+	"bs-watchlist-title-sidebar": "فهرست پیگیری",
 	"bs-watchlist-pref-sort-time": "زمان",
 	"bs-watchlist-pref-sort-title": "عنوان",
 	"bs-watchlist-window-watchlist-title": "فهرست پی‌گیری‌ها",
