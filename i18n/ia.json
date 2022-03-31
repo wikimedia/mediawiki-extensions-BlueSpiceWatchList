@@ -15,5 +15,16 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Modificationes non legite",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspectar modificationes",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Pagina de discussion",
-	"bs-watchlist-grid-watchlist-label-filter": "Filtro"
+	"bs-watchlist-grid-watchlist-label-filter": "Filtro",
+	"bs-watchlist-ve-watchlistinspector-title": "Observatorio",
+	"bs-watchlist-ve-watchlist-attr-count-label": "Numero",
+	"bs-watchlist-tag-watchlist-attr-count-help": "Adjuta sur le numero",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Longitude maximal del titulo",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Adjuta sur le longitude maximal del titulo",
+	"bs-watchlist-ve-watchlist-attr-order-label": "Ordine",
+	"bs-watchlist-tag-watchlist-attr-order-help": "Adjuta sur le ordine",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nomine de pagina",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "Adjuta sur le nomine de pagina",
+	"bs-watchlist-ve-watchlist-attr-time-label": "Hora",
+	"bs-watchlist-tag-watchlist-attr-time-help": "Adjuta sur le hora"
 }
