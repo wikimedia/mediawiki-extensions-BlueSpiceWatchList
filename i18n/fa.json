@@ -4,7 +4,8 @@
 			"Dalba",
 			"Huji",
 			"Jeeputer",
-			"Beginneruser"
+			"Beginneruser",
+			"Mohammad ebz"
 		]
 	},
 	"bs-watchlist-title-sidebar": "فهرست پیگیری",
@@ -14,5 +15,6 @@
 	"bs-watchlist-grid-watchlist-column-link-header": "صفحه",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "تغییرات دیده‌نشده",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "صفحهٔ بحث",
-	"bs-watchlist-grid-watchlist-label-filter": "پالایش"
+	"bs-watchlist-grid-watchlist-label-filter": "پالایش",
+	"bs-watchlist-ve-watchlistinspector-title": "فهرست پیگیری"
 }
