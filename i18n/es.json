@@ -3,6 +3,7 @@
 		"authors": [
 			"Adam N.",
 			"Amitie 10g",
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Macofe"
 		]
@@ -17,5 +18,13 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Cambios no leídos",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspeccionar cambios",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Página de discusión",
-	"bs-watchlist-grid-watchlist-label-filter": "Filtro"
+	"bs-watchlist-grid-watchlist-label-filter": "Filtro",
+	"bs-watchlist-ve-watchlistinspector-title": "Lista de seguimiento",
+	"bs-watchlist-ve-watchlist-attr-count-label": "Cuenta",
+	"bs-watchlist-tag-watchlist-attr-count-help": "Ayuda de la cuenta",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Longitud máxima del título",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Ayuda para la longitud máxima del título",
+	"bs-watchlist-ve-watchlist-attr-order-label": "Orden",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nombre de la página",
+	"bs-watchlist-ve-watchlist-attr-time-label": "Hora"
 }
