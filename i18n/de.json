@@ -5,7 +5,8 @@
 			"ElBe",
 			"Metalhead64",
 			"Mschlindwein",
-			"Stephan Muggli <muggli@hallowelt.biz>"
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"ZiqiLiang"
 		]
 	},
 	"bs-watchlist-desc": "Fügt ein Beobachtungsliste-Widget und Tag hinzu",
@@ -24,5 +25,7 @@
 	"bs-watchlist-ve-watchlist-attr-count-label": "Anzahl",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Maximale Titellänge",
 	"bs-watchlist-ve-watchlist-attr-order-label": "Reihenfolge",
-	"bs-watchlist-ve-watchlist-attr-pagename-label": "Seitenname"
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Seitenname",
+	"bs-watchlist-ve-watchlist-attr-time-label": "zeit",
+	"bs-watchlist-tag-watchlist-attr-time-help": "zeit helfen"
 }
