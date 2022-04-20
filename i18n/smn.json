@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Seipinne"
+			"Seipinne",
+			"Yupik"
 		]
 	},
 	"bs-watchlist-grid-watchlist-column-link-header": "Sijđo",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Sijđonommâ",
-	"bs-watchlist-ve-watchlist-attr-time-label": "Äigi"
+	"bs-watchlist-ve-watchlist-attr-time-label": "Äigi",
+	"bs-watchlist-title-sidebar": "Tarkkumlisto",
+	"bs-watchlist-window-watchlist-title": "Tarkkumlisto",
+	"bs-watchlist-ve-watchlistinspector-title": "Tarkkumlisto"
 }
