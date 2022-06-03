@@ -24,5 +24,7 @@
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nomine de pagina",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Adjuta sur le nomine de pagina",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Hora",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Adjuta sur le hora"
+	"bs-watchlist-tag-watchlist-attr-time-help": "Adjuta sur le hora",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Longitude maximal del titulo",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Adjuta sur le longitude maximal del titulo"
 }

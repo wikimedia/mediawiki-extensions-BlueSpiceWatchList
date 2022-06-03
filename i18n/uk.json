@@ -2,10 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
-			"Piramidion",
-			"Ата",
 			"Ice bulldog",
-			"Samflint"
+			"Piramidion",
+			"Samflint",
+			"Ата"
 		]
 	},
 	"bs-watchlist-desc": "Додає віджет і тег списку спостереження",
@@ -26,5 +26,7 @@
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Назва сторінки",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Довідка щодо назви сторінки",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Час",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Довідка щодо часу"
+	"bs-watchlist-tag-watchlist-attr-time-help": "Довідка щодо часу",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Максимальна довжина заголовка",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Довідка про максимальну довжину заголовка"
 }

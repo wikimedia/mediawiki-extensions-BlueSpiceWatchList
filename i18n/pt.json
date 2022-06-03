@@ -25,5 +25,7 @@
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nome da página",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Ajuda sobre o nome da página",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Hora",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Ajuda sobre a hora"
+	"bs-watchlist-tag-watchlist-attr-time-help": "Ajuda sobre a hora",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Comprimento máximo do título",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Ajuda sobre o comprimento máximo do título"
 }
