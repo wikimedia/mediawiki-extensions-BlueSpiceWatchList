@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Felipe L. Ewald",
@@ -23,6 +24,7 @@
 	"bs-watchlist-ve-watchlistinspector-title": "Páginas vigiadas",
 	"bs-watchlist-ve-watchlist-attr-count-label": "Contagem",
 	"bs-watchlist-tag-watchlist-attr-count-help": "Contar ajuda",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Comprimento máximo do título",
 	"bs-watchlist-ve-watchlist-attr-order-label": "Ordem",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nome da página",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Ajuda do nome da página",
