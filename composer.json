@@ -4,7 +4,7 @@
 	"description": "Adds a watchlist widget and tag",
 	"license": "GPL-3.0-only",
 	"require": {
-		"composer/installers": "~1.0"
+		"composer/installers": "~1.0|~2"
 	},
 	"extra": {
 		"installer-name": "BlueSpiceWatchList"
