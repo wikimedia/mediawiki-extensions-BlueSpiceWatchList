@@ -9,11 +9,10 @@ use Title;
 class WatchListHandler extends Handler {
 
 	/**
-	 *
 	 * @return string
 	 */
 	public function handle() {
-		$this->parser->getOutput()->setProperty( 'bs-tag-watchlist', 1 );
+		$this->parser->getOutput()->setPageProperty( 'bs-tag-watchlist', 1 );
 		$list = '';
 		if ( $this->parser->getUser()->isAnon() ) {
 			return $list;
@@ -29,7 +28,6 @@ class WatchListHandler extends Handler {
 	}
 
 	/**
-	 *
 	 * @return Title[]
 	 */
 	protected function getWatchlistTitles() {
