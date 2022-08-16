@@ -41,6 +41,13 @@
 			"TagDefinitions": [
 				"ext.bluespice.watchlist.visualEditor"
 			]
+		},
+		"ContentDroplets": {
+			"Droplets": {
+				"watchlist": {
+					"class": "\\BlueSpice\\WatchList\\ContentDroplets\\WatchlistDroplet"
+				}
+			}
 		}
 	},
 	"HookHandlers": {
