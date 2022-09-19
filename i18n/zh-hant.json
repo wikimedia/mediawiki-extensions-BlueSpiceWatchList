@@ -4,6 +4,7 @@
 			"Cwlin0416",
 			"Kly",
 			"Liuxinyu970226",
+			"Willy1018",
 			"Winston Sung"
 		]
 	},
@@ -18,5 +19,9 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "未讀變更",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "檢查變更",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "討論頁",
-	"bs-watchlist-grid-watchlist-label-filter": "篩選"
+	"bs-watchlist-grid-watchlist-label-filter": "篩選",
+	"bs-watchlist-ve-watchlistinspector-title": "監視清單",
+	"bs-watchlist-ve-watchlist-attr-count-label": "數量",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "頁面名稱",
+	"bs-watchlist-ve-watchlist-attr-time-label": "時間"
 }
