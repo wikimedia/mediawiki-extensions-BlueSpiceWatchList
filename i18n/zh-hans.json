@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"A Chinese Wikipedian",
+			"Lakejason0",
 			"Liuxinyu970226",
 			"Wzl19371",
 			"佛壁灯"
@@ -16,7 +17,7 @@
 	"bs-watchlist-window-watchlist-intro": "这是您监视列表中所有页面的概览。您可切换至[[Special:Watchlist|经典版监视列表]]。",
 	"bs-watchlist-grid-watchlist-column-link-header": "页面",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "未查看更改",
-	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "检查变更",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "检查更改",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "讨论页",
 	"bs-watchlist-grid-watchlist-label-filter": "过滤器",
 	"bs-watchlist-ve-watchlistinspector-title": "监视列表",
