@@ -21,7 +21,15 @@
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Overlegpagina",
 	"bs-watchlist-grid-watchlist-label-filter": "Filteren",
 	"bs-watchlist-ve-watchlistinspector-title": "Volglijst",
-	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Maximale titel lengte",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Maximale titellengte",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Paginanaam",
-	"bs-watchlist-ve-watchlist-attr-time-label": "Tijd"
+	"bs-watchlist-ve-watchlist-attr-time-label": "Tijd",
+	"bs-watchlist-window-watchlist-intro": "Dit is een overzicht van alle pagina's op uw volglijst. U kunt ook overschakelen naar de [[Special:Watchlist|klassieke volglijstpagina]].",
+	"bs-watchlist-ve-watchlist-attr-count-label": "Aantal",
+	"bs-watchlist-tag-watchlist-attr-count-help": "Hulp bij aantal",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Hulp bij maximale titellengte",
+	"bs-watchlist-ve-watchlist-attr-order-label": "Volgorde",
+	"bs-watchlist-tag-watchlist-attr-order-help": "Hulp bij volgorde",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "Hulp bij paginanaam",
+	"bs-watchlist-tag-watchlist-attr-time-help": "Hulp bij tijd"
 }
