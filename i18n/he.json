@@ -28,5 +28,7 @@
 	"bs-watchlist-tag-watchlist-attr-order-help": "עזרה לסדר",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "שם דף",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "עזרה לשם דף",
-	"bs-watchlist-ve-watchlist-attr-time-label": "זמן"
+	"bs-watchlist-ve-watchlist-attr-time-label": "זמן",
+	"bs-watchlist-tag-watchlist-attr-count-help": "עזרה על ספירה",
+	"bs-watchlist-tag-watchlist-attr-time-help": "עזרה על זמן"
 }
