@@ -2,13 +2,13 @@
 
 namespace BlueSpice\WatchList\AttentionIndicator;
 
-use BlueSpice\Data\FieldType;
-use BlueSpice\Data\Filter\Boolean;
-use BlueSpice\Data\Filter\Numeric;
-use BlueSpice\Data\ReaderParams;
 use BlueSpice\Data\Watchlist\Record;
 use BlueSpice\Data\Watchlist\Store;
 use BlueSpice\Discovery\AttentionIndicator;
+use MWStake\MediaWiki\Component\DataStore\FieldType;
+use MWStake\MediaWiki\Component\DataStore\Filter\Boolean;
+use MWStake\MediaWiki\Component\DataStore\Filter\Numeric;
+use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 use RequestContext;
 
 class WatchList extends AttentionIndicator {
