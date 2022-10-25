@@ -61,7 +61,7 @@
 		],
 		"BSInsertMagicAjaxGetData": "\\BlueSpice\\WatchList\\Hook\\BSInsertMagicAjaxGetData\\AddWatchListTag::callback",
 		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\WatchList\\Hook\\BSUsageTrackerRegisterCollectors\\AddWatchListTag::callback",
-		"PersonalUrls": "skin"
+		"SkinTemplateNavigation::Universal": "skin"
 	},
 	"ResourceModules": {
 		"ext.bluespice.watchlist.styles": {

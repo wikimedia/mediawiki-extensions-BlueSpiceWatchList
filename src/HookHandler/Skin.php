@@ -2,26 +2,22 @@
 
 namespace BlueSpice\WatchList\HookHandler;
 
-use MediaWiki\Hook\PersonalUrlsHook;
-use SkinTemplate;
-use Title;
+use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 
-class Skin implements PersonalUrlsHook {
+class Skin implements SkinTemplateNavigation__UniversalHook {
 
 	/**
-	 * @param array &$personal_urls
-	 * @param Title &$title
-	 * @param SkinTemplate $skin
-	 * @return void
+	 * // phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+	 * @inheritDoc
 	 */
-	public function onPersonalUrls( &$personal_urls, &$title, $skin ): void {
-		if ( !isset( $personal_urls['watchlist'] ) ) {
+	public function onSkinTemplateNavigation__Universal( $sktemplate, &$links ): void {
+		if ( !isset( $links['watchlist'] ) ) {
 			return;
 		}
-		if ( !isset( $personal_urls['watchlist']['data'] ) ) {
-			$personal_urls['watchlist']['data'] = [];
+		if ( !isset( $links['watchlist']['data'] ) ) {
+			$links['watchlist']['data'] = [];
 		}
-		$personal_urls['watchlist']['data']['attentionindicator'] = 'watchlist';
+		$links['watchlist']['data']['attentionindicator'] = 'watchlist';
 	}
 
 }
