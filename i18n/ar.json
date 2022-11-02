@@ -4,7 +4,8 @@
 			"FiberAhmed",
 			"Meno25",
 			"ديفيد",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"أَحمد"
 		]
 	},
 	"bs-watchlist-desc": "يضيف عنصر تحكم ووسم قائمة المراقبة",
@@ -20,5 +21,14 @@
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "صفحة النقاش",
 	"bs-watchlist-grid-watchlist-label-filter": "المرشح",
 	"bs-watchlist-ve-watchlistinspector-title": "قائمة المراقبة",
-	"bs-watchlist-ve-watchlist-attr-time-label": "الوقت"
+	"bs-watchlist-ve-watchlist-attr-count-label": "عدد",
+	"bs-watchlist-tag-watchlist-attr-count-help": "عد المساعدة",
+	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "الحد الأقصى لطول العنوان",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "ماكس طول العنوان مساعدة",
+	"bs-watchlist-ve-watchlist-attr-order-label": "ترتيب",
+	"bs-watchlist-tag-watchlist-attr-order-help": "اطلب المساعدة",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "اسم الصفحة",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "Pagename المساعدة",
+	"bs-watchlist-ve-watchlist-attr-time-label": "الوقت",
+	"bs-watchlist-tag-watchlist-attr-time-help": "مساعدة الوقت"
 }
