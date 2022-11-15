@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
+			"GpieroMW",
 			"Matteocng",
 			"Selven"
 		]
@@ -13,5 +14,6 @@
 	"bs-watchlist-window-watchlist-title": "Osservati speciali",
 	"bs-watchlist-grid-watchlist-column-link-header": "Pagina",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Pagina di discussione",
-	"bs-watchlist-grid-watchlist-label-filter": "Filtro"
+	"bs-watchlist-grid-watchlist-label-filter": "Filtro",
+	"bs-watchlist-ve-watchlistinspector-title": "Osservati speciali"
 }
