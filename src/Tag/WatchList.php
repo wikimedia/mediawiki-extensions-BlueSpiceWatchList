@@ -94,7 +94,7 @@ class WatchList extends Tag {
 			static::ATTR_MAX_TITLE_LENGTH,
 			20
 		);
-		$titleLength->setArrayValues( [ 'range' => [ 5, 500 ] ] );
+
 		$order = new ParamDefinition(
 			ParamType::STRING,
 			static::ATTR_ORDER,
