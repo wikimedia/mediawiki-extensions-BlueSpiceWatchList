@@ -100,9 +100,7 @@
 				"bs-watchlist-ve-watchlist-attr-order-label",
 				"bs-watchlist-tag-watchlist-attr-order-help",
 				"bs-watchlist-ve-watchlist-attr-pagename-label",
-				"bs-watchlist-tag-watchlist-attr-pagename-help",
-				"bs-watchlist-ve-watchlist-attr-time-label",
-				"bs-watchlist-tag-watchlist-attr-time-help"
+				"bs-watchlist-ve-watchlist-attr-time-label"
 			]
 		}
 	},

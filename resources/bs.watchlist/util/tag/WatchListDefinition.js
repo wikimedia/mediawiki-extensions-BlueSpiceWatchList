@@ -17,28 +17,30 @@ bs.watchlist.util.tag.WatchListDefinition.prototype.getCfg = function() {
 			name: 'count',
 			labelMsg: 'bs-watchlist-ve-watchlist-attr-count-label',
 			helpMsg: 'bs-watchlist-tag-watchlist-attr-count-help',
-			type: 'number'
+			type: 'number',
+			default: 5
 		},{
 			name: 'maxtitlelength',
 			labelMsg: 'bs-watchlist-ve-watchlist-attr-maxtitlelength-label',
 			helpMsg: 'bs-watchlist-tag-watchlist-attr-maxtitlelength-help',
-			type: 'number'
+			type: 'number',
+			default: 20
 		},{
 			name: 'order',
 			labelMsg: 'bs-watchlist-ve-watchlist-attr-order-label',
 			helpMsg: 'bs-watchlist-tag-watchlist-attr-order-help',
-			type: 'text'
-		},{
-			name: 'pagename',
-			labelMsg: 'bs-watchlist-ve-watchlist-attr-pagename-label',
-			helpMsg: 'bs-watchlist-tag-watchlist-attr-pagename-help',
-			type: 'text'
-		},{
-			name: 'time',
-			labelMsg: 'bs-watchlist-ve-watchlist-attr-time-label',
-			helpMsg: 'bs-watchlist-tag-watchlist-attr-time-help',
-			type: 'text'
-		}]
+			type: 'dropdown',
+			default: 'time',
+			options: [
+				{
+					data: 'pagename',
+					label: mw.message( 'bs-watchlist-ve-watchlist-attr-pagename-label' ).text()
+				},{
+					data: 'time',
+					label: mw.message( 'bs-watchlist-ve-watchlist-attr-time-label' ).text()
+				}
+			]
+		},]
 	});
 };
 

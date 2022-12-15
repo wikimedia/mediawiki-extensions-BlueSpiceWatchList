@@ -4,9 +4,28 @@ namespace BlueSpice\WatchList\Tag;
 
 use BlueSpice\Tag\Handler;
 use BsStringHelper;
+use Parser;
+use PPFrame;
+use RequestContext;
 use Title;
 
 class WatchListHandler extends Handler {
+
+	/** @var MessageLocalizer */
+	private $messageLocalizer;
+
+	/**
+	 *
+	 * @param string $processedInput
+	 * @param array $processedArgs
+	 * @param Parser $parser
+	 * @param PPFrame $frame
+	 */
+	public function __construct( $processedInput, array $processedArgs, Parser $parser,
+	PPFrame $frame ) {
+		parent::__construct( $processedInput, $processedArgs, $parser, $frame );
+		$this->messageLocalizer = RequestContext::getMain();
+	}
 
 	/**
 	 * @return string
@@ -15,9 +34,13 @@ class WatchListHandler extends Handler {
 		$this->parser->getOutput()->setPageProperty( 'bs-tag-watchlist', 1 );
 		$list = '';
 		if ( $this->parser->getUser()->isAnon() ) {
-			return $list;
+			return $this->messageLocalizer->msg( 'bs-watchlist-tag-watchlist-no-user' )->text();
 		}
-		foreach ( $this->getWatchlistTitles() as $title ) {
+		$titles = $this->getWatchlistTitles();
+		if ( empty( $titles ) ) {
+			return $this->messageLocalizer->msg( 'bs-watchlist-tag-watchlist-no-entries' )->text();
+		}
+		foreach ( $titles as $title ) {
 			$displayText = BsStringHelper::shorten( $title->getPrefixedText(), [
 				'max-length' => $this->processedArgs[WatchList::ATTR_MAX_TITLE_LENGTH],
 				'position' => 'middle'
