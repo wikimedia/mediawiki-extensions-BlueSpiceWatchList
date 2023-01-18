@@ -29,7 +29,5 @@
 	"bs-watchlist-ve-watchlist-attr-order-label": "Порядок",
 	"bs-watchlist-tag-watchlist-attr-order-help": "Заказать справочную информацию",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Название документа",
-	"bs-watchlist-tag-watchlist-attr-pagename-help": "Справочная информация о названии документа",
-	"bs-watchlist-ve-watchlist-attr-time-label": "Время",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Для справки: Время"
+	"bs-watchlist-ve-watchlist-attr-time-label": "Время"
 }

@@ -18,13 +18,13 @@
 	"bs-watchlist-grid-watchlist-label-filter": "Filtro",
 	"bs-watchlist-ve-watchlistinspector-title": "Observatorio",
 	"bs-watchlist-ve-watchlist-attr-count-label": "Numero",
-	"bs-watchlist-tag-watchlist-attr-count-help": "Adjuta sur le numero",
+	"bs-watchlist-tag-watchlist-attr-count-help": "Numero de entratas del observatorio que debe esser monstrate",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Longitude maximal del titulo",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Adjuta sur le longitude maximal del titulo",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Numero de litteras del titulo que debe esser monstrate. Pote esser un numero inter 5 e 500.",
 	"bs-watchlist-ve-watchlist-attr-order-label": "Ordine",
-	"bs-watchlist-tag-watchlist-attr-order-help": "Adjuta sur le ordine",
+	"bs-watchlist-tag-watchlist-attr-order-help": "Monstra le lista in ordine de hora o de nomine de pagina",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nomine de pagina",
-	"bs-watchlist-tag-watchlist-attr-pagename-help": "Adjuta sur le nomine de pagina",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Hora",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Adjuta sur le hora"
+	"bs-watchlist-tag-watchlist-no-user": "Le observatorio non pote esser monstrate perque necun usator ha aperite session",
+	"bs-watchlist-tag-watchlist-no-entries": "Nulle cambiamentos de paginas a monstrar in le observatorio"
 }

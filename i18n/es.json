@@ -27,7 +27,5 @@
 	"bs-watchlist-ve-watchlist-attr-order-label": "Orden",
 	"bs-watchlist-tag-watchlist-attr-order-help": "Pedir ayuda",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nombre de la página",
-	"bs-watchlist-tag-watchlist-attr-pagename-help": "Ayuda para el nombre de la página",
-	"bs-watchlist-ve-watchlist-attr-time-label": "Hora",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Ayuda de tiempo"
+	"bs-watchlist-ve-watchlist-attr-time-label": "Hora"
 }
