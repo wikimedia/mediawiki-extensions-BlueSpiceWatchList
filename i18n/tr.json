@@ -25,5 +25,6 @@
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Sayfa adı",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Sayfa adı yardım",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Zaman",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Zaman yardım"
+	"bs-watchlist-tag-watchlist-attr-time-help": "Zaman yardım",
+	"bs-watchlist-tag-watchlist-no-entries": "İzleme listesindeki sayfalarda gösterilecek herhangi bir değişiklik yok"
 }
