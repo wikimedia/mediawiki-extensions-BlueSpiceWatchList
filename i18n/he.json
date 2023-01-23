@@ -22,11 +22,11 @@
 	"bs-watchlist-grid-watchlist-label-filter": "מסנן",
 	"bs-watchlist-ve-watchlistinspector-title": "רשימת המעקב",
 	"bs-watchlist-ve-watchlist-attr-count-label": "ספירה",
-	"bs-watchlist-tag-watchlist-attr-count-help": "עזרה על ספירה",
+	"bs-watchlist-tag-watchlist-attr-count-help": "להציג את מספר הפריטים ברשימת המעקב",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "אורך כותרת מרבי",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "עזרה לאורך כותרת מרבי",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "מספר האותיות שיש להציג בכותרת. זה יכול להיות מספר בין 5 ל־500.",
 	"bs-watchlist-ve-watchlist-attr-order-label": "סדר",
-	"bs-watchlist-tag-watchlist-attr-order-help": "עזרה לסדר",
+	"bs-watchlist-tag-watchlist-attr-order-help": "הצגת רשימה ממוינת לפי זמן או שם דף",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "שם דף",
 	"bs-watchlist-ve-watchlist-attr-time-label": "זמן"
 }
