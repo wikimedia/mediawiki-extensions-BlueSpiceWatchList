@@ -19,13 +19,13 @@
 	"bs-watchlist-grid-watchlist-label-filter": "Filtrar",
 	"bs-watchlist-ve-watchlistinspector-title": "Páginas vigiadas",
 	"bs-watchlist-ve-watchlist-attr-count-label": "Contagem",
-	"bs-watchlist-tag-watchlist-attr-count-help": "Ajuda sobre a contagem",
+	"bs-watchlist-tag-watchlist-attr-count-help": "O número de entradas na lista de páginas vigiadas deve ser mostrado",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Comprimento máximo do título",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Ajuda sobre o comprimento máximo do título",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Número de letras do título que devem ser mostradas. Pode ser um número entre 5 e 500.",
 	"bs-watchlist-ve-watchlist-attr-order-label": "Ordenação",
-	"bs-watchlist-tag-watchlist-attr-order-help": "Ajuda sobre ordenação",
+	"bs-watchlist-tag-watchlist-attr-order-help": "Mostra a lista ordenada por hora ou por nome da página",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nome da página",
-	"bs-watchlist-tag-watchlist-attr-pagename-help": "Ajuda sobre o nome da página",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Hora",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Ajuda sobre a hora"
+	"bs-watchlist-tag-watchlist-no-user": "A lista de páginas vigiadas não pode ser apresentada porque não há nenhum utilizador com sessão iniciada",
+	"bs-watchlist-tag-watchlist-no-entries": "Não há alterações nas páginas a mostrar nas páginas vigiadas"
 }

@@ -5,7 +5,8 @@
 			"Amitie 10g",
 			"DiegoAmbrocio",
 			"Fitoschido",
-			"Macofe"
+			"Macofe",
+			"JDíaz32"
 		]
 	},
 	"bs-watchlist-desc": "Añade un widget de Lista de seguimiento y lo marca",
@@ -21,13 +22,13 @@
 	"bs-watchlist-grid-watchlist-label-filter": "Filtro",
 	"bs-watchlist-ve-watchlistinspector-title": "Lista de seguimiento",
 	"bs-watchlist-ve-watchlist-attr-count-label": "Cuenta",
-	"bs-watchlist-tag-watchlist-attr-count-help": "Ayuda de la cuenta",
+	"bs-watchlist-tag-watchlist-attr-count-help": "Debería mostrarse el número de entradas de la watchlist",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Longitud máxima del título",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Ayuda para la longitud máxima del título",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Número de letras que deben mostrarse del título. Puede ser un número entre 5 y 500.",
 	"bs-watchlist-ve-watchlist-attr-order-label": "Orden",
-	"bs-watchlist-tag-watchlist-attr-order-help": "Pedir ayuda",
+	"bs-watchlist-tag-watchlist-attr-order-help": "Muestra una lista ordenada por hora o nombre de página",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nombre de la página",
-	"bs-watchlist-tag-watchlist-attr-pagename-help": "Ayuda para el nombre de la página",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Hora",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Ayuda de tiempo"
+	"bs-watchlist-tag-watchlist-no-user": "La watchlist no se puede mostrar porque ningún usuario ha iniciado sesión",
+	"bs-watchlist-tag-watchlist-no-entries": "No hay cambios en las páginas para mostrar en la watchlist"
 }

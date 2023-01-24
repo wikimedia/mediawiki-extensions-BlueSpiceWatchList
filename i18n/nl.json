@@ -23,13 +23,13 @@
 	"bs-watchlist-grid-watchlist-label-filter": "Filteren",
 	"bs-watchlist-ve-watchlistinspector-title": "Volglijst",
 	"bs-watchlist-ve-watchlist-attr-count-label": "Aantal",
-	"bs-watchlist-tag-watchlist-attr-count-help": "Hulp bij aantal",
+	"bs-watchlist-tag-watchlist-attr-count-help": "Het aantal vermeldingen op de volglijst moet worden weergegeven",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Maximale titellengte",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Hulp bij maximale titellengte",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Aantal letters dat getoond moet worden van de titel. Kan een getal zijn tussen 5 en 500.",
 	"bs-watchlist-ve-watchlist-attr-order-label": "Volgorde",
-	"bs-watchlist-tag-watchlist-attr-order-help": "Hulp bij volgorde",
+	"bs-watchlist-tag-watchlist-attr-order-help": "Toont lijst gesorteerd op tijd of paginanaam",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Paginanaam",
-	"bs-watchlist-tag-watchlist-attr-pagename-help": "Hulp bij paginanaam",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Tijd",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Hulp bij tijd"
+	"bs-watchlist-tag-watchlist-no-user": "Volglijst kan niet worden weergegeven omdat er geen gebruiker is aangemeld",
+	"bs-watchlist-tag-watchlist-no-entries": "Geen paginawijzigingen om weer te geven in de volglijst"
 }

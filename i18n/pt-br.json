@@ -6,7 +6,8 @@
 			"Eduardoaddad",
 			"Felipe L. Ewald",
 			"Juan90264",
-			"Wiiformii"
+			"Wiiformii",
+			"Mello25"
 		]
 	},
 	"bs-watchlist-desc": "Adiciona um widget de páginas vigiadas e etiqueta",
@@ -23,13 +24,13 @@
 	"bs-watchlist-grid-watchlist-label-filter": "Filtrar",
 	"bs-watchlist-ve-watchlistinspector-title": "Páginas vigiadas",
 	"bs-watchlist-ve-watchlist-attr-count-label": "Contagem",
-	"bs-watchlist-tag-watchlist-attr-count-help": "Contar ajuda",
+	"bs-watchlist-tag-watchlist-attr-count-help": "O número de entradas na lista de páginas vigiadas deve ser mostrado",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Comprimento máximo do título",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Ajuda sobre o tamanho máximo do título",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Número de letras do título que devem ser mostradas. Pode ser um número entre 5 e 500.",
 	"bs-watchlist-ve-watchlist-attr-order-label": "Ordem",
-	"bs-watchlist-tag-watchlist-attr-order-help": "Solicitar ajuda",
+	"bs-watchlist-tag-watchlist-attr-order-help": "Mostra a lista ordenada por hora ou por nome da página",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nome da página",
-	"bs-watchlist-tag-watchlist-attr-pagename-help": "Ajuda do nome da página",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Tempo",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Ajuda de tempo"
+	"bs-watchlist-tag-watchlist-no-user": "A lista de páginas vigiadas não pode ser apresentada porque não há nenhum usuário com sessão iniciada",
+	"bs-watchlist-tag-watchlist-no-entries": "Não há alterações nas páginas a mostrar nas páginas vigiadas"
 }
