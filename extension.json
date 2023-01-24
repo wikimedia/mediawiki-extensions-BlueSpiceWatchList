@@ -90,6 +90,7 @@
 			"scripts": [
 				"bs.watchlist/util/tag/WatchListDefinition.js"
 			],
+			"styles": "bluespice.watchlist.droplet.css",
 			"messages": [
 				"bs-watchlist-tag-watchlist-desc",
 				"bs-watchlist-ve-watchlistinspector-title",
