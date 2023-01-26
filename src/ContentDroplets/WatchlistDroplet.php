@@ -4,7 +4,6 @@ namespace BlueSpice\WatchList\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TagDroplet;
 use Message;
-use RawMessage;
 
 class WatchlistDroplet extends TagDroplet {
 
@@ -12,21 +11,21 @@ class WatchlistDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Watchlist' );
+		return Message::newFromKey( 'bs-watchlist-droplet-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Watchlist description" );
+		return Message::newFromKey( 'bs-watchlist-droplet-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'unStar';
+		return 'droplet-watchlist';
 	}
 
 	/**
