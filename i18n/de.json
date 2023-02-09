@@ -33,5 +33,7 @@
 	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Anzahl der Buchstaben, die im Titel angezeigt werden sollen. Kann eine Zahl zwischen 5 und 500 sein.",
 	"bs-watchlist-tag-watchlist-attr-order-help": "Zeigt die Liste sortiert nach Zeit oder Seitenname",
 	"bs-watchlist-tag-watchlist-no-user": "Watchlist kann nicht angezeigt werden, weil kein Benutzer angemeldet ist",
-	"bs-watchlist-tag-watchlist-no-entries": "Keine Änderungen auf Seiten, die in der Beobachtungsliste angezeigt werden"
+	"bs-watchlist-tag-watchlist-no-entries": "Keine Änderungen auf Seiten, die in der Beobachtungsliste angezeigt werden",
+	"bs-watchlist-droplet-name": "Beobachtungsliste",
+	"bs-watchlist-droplet-description": "Letzte Änderungen an Seiten, die in der Beobachtungsliste enthalten sind"
 }
