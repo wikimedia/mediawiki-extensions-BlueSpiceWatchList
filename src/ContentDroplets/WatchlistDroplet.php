@@ -31,8 +31,8 @@ class WatchlistDroplet extends TagDroplet {
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.watchlist.visualEditor';
+	public function getRLModules(): array {
+		return [ 'ext.bluespice.watchlist.visualEditor' ];
 	}
 
 	/**
