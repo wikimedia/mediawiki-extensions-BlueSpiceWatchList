@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"bs-watchlist-title-sidebar": "Iwwerwaachungslëscht",
@@ -10,7 +11,7 @@
 	"bs-watchlist-pref-sort-title": "Titel",
 	"bs-watchlist-window-watchlist-title": "Iwwerwaachungslëscht",
 	"bs-watchlist-grid-watchlist-column-link-header": "Säit",
-	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Ännerungen déi net gelies goufen",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Ännerungen, déi net gelies goufen",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Diskussiounssäit",
 	"bs-watchlist-grid-watchlist-label-filter": "Filter",
 	"bs-watchlist-ve-watchlistinspector-title": "Iwwerwaachungslëscht",
