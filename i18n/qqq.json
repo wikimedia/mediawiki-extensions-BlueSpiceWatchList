@@ -33,5 +33,7 @@
 	"bs-watchlist-tag-watchlist-no-user": "Label if watchlist cannot be displayed because user is not logged in",
 	"bs-watchlist-tag-watchlist-no-entries": "Label if watchlist is empty",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Help message for the parameter \"pagename\"",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Help message for the parameter \"time\""
+	"bs-watchlist-tag-watchlist-attr-time-help": "Help message for the parameter \"time\"",
+	"bs-watchlist-droplet-name": "Title of droplet for tag Watchlist",
+	"bs-watchlist-droplet-description": "Description of droplet for tag Watchlist"
 }
