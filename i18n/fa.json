@@ -24,5 +24,7 @@
 	"bs-watchlist-ve-watchlist-attr-order-label": "ترتیب",
 	"bs-watchlist-tag-watchlist-attr-order-help": "راهنمای ترتیب",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "نام صفحه",
-	"bs-watchlist-ve-watchlist-attr-time-label": "زمان"
+	"bs-watchlist-ve-watchlist-attr-time-label": "زمان",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "راهنمای نام صفحه",
+	"bs-watchlist-tag-watchlist-attr-time-help": "راهنمای زمان"
 }

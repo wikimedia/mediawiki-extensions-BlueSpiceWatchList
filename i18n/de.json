@@ -33,6 +33,7 @@
 	"bs-watchlist-ve-watchlist-attr-time-label": "Zeit",
 	"bs-watchlist-tag-watchlist-no-user": "Watchlist kann nicht angezeigt werden, weil kein Benutzer angemeldet ist",
 	"bs-watchlist-tag-watchlist-no-entries": "Keine Änderungen auf Seiten, die in der Beobachtungsliste angezeigt werden",
+	"bs-watchlist-tag-watchlist-attr-time-help": "Zeit helfen",
 	"bs-watchlist-droplet-name": "Beobachtungsliste",
 	"bs-watchlist-droplet-description": "Letzte Änderungen an Seiten, die in der Beobachtungsliste enthalten sind"
 }

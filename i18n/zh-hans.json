@@ -21,5 +21,6 @@
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "讨论页",
 	"bs-watchlist-grid-watchlist-label-filter": "过滤器",
 	"bs-watchlist-ve-watchlistinspector-title": "监视列表",
-	"bs-watchlist-ve-watchlist-attr-pagename-label": "页面名称"
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "页面名称",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "页面名称帮助"
 }
