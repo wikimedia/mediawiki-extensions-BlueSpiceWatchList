@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BadDog",
+			"Milicevic01",
 			"Zenfiric",
 			"Милан Јелисавчић"
 		]
@@ -11,5 +12,6 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Непрочитане промене",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Испитајте промене",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Страница за разговор",
-	"bs-watchlist-grid-watchlist-label-filter": "Филтер"
+	"bs-watchlist-grid-watchlist-label-filter": "Филтер",
+	"bs-watchlist-droplet-name": "Списак надгледања"
 }

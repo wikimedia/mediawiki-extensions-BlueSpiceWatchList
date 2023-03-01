@@ -13,5 +13,6 @@
 	"bs-watchlist-ve-watchlistinspector-title": "ウォッチリスト",
 	"bs-watchlist-ve-watchlist-attr-count-label": "カウント",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "ページ名",
-	"bs-watchlist-ve-watchlist-attr-time-label": "時刻"
+	"bs-watchlist-ve-watchlist-attr-time-label": "時刻",
+	"bs-watchlist-droplet-name": "ウォッチリスト"
 }
