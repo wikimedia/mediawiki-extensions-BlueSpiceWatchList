@@ -3,7 +3,8 @@
 		"authors": [
 			"Rachmat.Wahidi",
 			"Rachmat04",
-			"Syman51"
+			"Syman51",
+			"Veracious"
 		]
 	},
 	"bs-watchlist-tag-watchlist-desc": "Tampilkan artikel yang memiliki perubahan baru terkini dan dalam pantauan Anda.",
@@ -17,5 +18,6 @@
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nama halaman",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Nama halaman bantuan",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Waktu",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Bantuan waktu"
+	"bs-watchlist-tag-watchlist-attr-time-help": "Bantuan waktu",
+	"bs-watchlist-droplet-name": "Daftar pantauan"
 }
