@@ -32,5 +32,7 @@
 	"bs-watchlist-tag-watchlist-no-user": "לא ניתן להציג רשימת מעקב כי שום משתמש לא מחובר",
 	"bs-watchlist-tag-watchlist-no-entries": "אין שינויים בדפים להצגה ברשימת המעקב",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "עזרה לשם דף",
-	"bs-watchlist-tag-watchlist-attr-time-help": "עזרה על זמן"
+	"bs-watchlist-tag-watchlist-attr-time-help": "עזרה על זמן",
+	"bs-watchlist-droplet-name": "רשימת המעקב",
+	"bs-watchlist-droplet-description": "שינויים אחרונים בדפים הכלולים ברשימת המעקב"
 }
