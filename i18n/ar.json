@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AA800",
 			"FiberAhmed",
 			"Meno25",
 			"أَحمد",
@@ -22,9 +23,9 @@
 	"bs-watchlist-grid-watchlist-label-filter": "المرشح",
 	"bs-watchlist-ve-watchlistinspector-title": "قائمة المراقبة",
 	"bs-watchlist-ve-watchlist-attr-count-label": "عدد",
-	"bs-watchlist-tag-watchlist-attr-count-help": "عد المساعدة",
+	"bs-watchlist-tag-watchlist-attr-count-help": "يجب إظهار عدد الإدخالات في قائمة المراقبة",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "الحد الأقصى لطول العنوان",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "ماكس طول العنوان مساعدة",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "عدد الحروف التي يجب إظهارها في العنوان. يمكن أن يكون رقمًا بين 5 و 500.",
 	"bs-watchlist-ve-watchlist-attr-order-label": "ترتيب",
 	"bs-watchlist-tag-watchlist-attr-order-help": "اطلب المساعدة",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "اسم الصفحة",
