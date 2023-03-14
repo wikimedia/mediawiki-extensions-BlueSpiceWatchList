@@ -33,7 +33,7 @@ class WatchListHandler extends Handler {
 	public function handle() {
 		$this->parser->getOutput()->setPageProperty( 'bs-tag-watchlist', 1 );
 		$list = '';
-		if ( $this->parser->getUser()->isAnon() ) {
+		if ( !$this->parser->getUserIdentity()->isRegistered() ) {
 			return $this->messageLocalizer->msg( 'bs-watchlist-tag-watchlist-no-user' )->text();
 		}
 		$titles = $this->getWatchlistTitles();
@@ -67,7 +67,7 @@ class WatchListHandler extends Handler {
 			[ 'watchlist', 'page' ],
 			[ 'wl_namespace', 'wl_title' ],
 			[
-				'wl_user' => $this->parser->getUser()->getId(),
+				'wl_user' => $this->parser->getUserIdentity()->getId(),
 				'NOT wl_notificationtimestamp' => null,
 				'wl_title = page_title',
 				'wl_namespace = page_namespace',
