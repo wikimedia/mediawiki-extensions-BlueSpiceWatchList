@@ -31,5 +31,6 @@
 	"bs-watchlist-tag-watchlist-attr-order-help": "اطلب المساعدة",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "اسم الصفحة",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Pagename المساعدة",
-	"bs-watchlist-tag-watchlist-attr-time-help": "مساعدة الوقت"
+	"bs-watchlist-tag-watchlist-attr-time-help": "مساعدة الوقت",
+	"bs-watchlist-droplet-name": "قائمة المراقبة"
 }
