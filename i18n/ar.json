@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AA800",
+			"Alshamiri1",
 			"FiberAhmed",
 			"Meno25",
 			"أَحمد",
@@ -32,5 +33,6 @@
 	"bs-watchlist-ve-watchlist-attr-time-label": "الوقت",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Pagename المساعدة",
 	"bs-watchlist-tag-watchlist-attr-time-help": "مساعدة الوقت",
-	"bs-watchlist-droplet-name": "قائمة المراقبة"
+	"bs-watchlist-droplet-name": "قائمة المراقبة",
+	"bs-watchlist-droplet-description": "أحدث التغييرات على الصفحات المدرجة في قائمة المراقبة"
 }
