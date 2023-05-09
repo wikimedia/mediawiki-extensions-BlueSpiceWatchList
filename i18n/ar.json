@@ -6,7 +6,8 @@
 			"أَحمد",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح",
-			"AA800"
+			"AA800",
+			"Alshamiri1"
 		]
 	},
 	"bs-watchlist-desc": "يضيف عنصر تحكم ووسم قائمة المراقبة",
@@ -32,5 +33,6 @@
 	"bs-watchlist-ve-watchlist-attr-time-label": "الوقت",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Pagename المساعدة",
 	"bs-watchlist-tag-watchlist-attr-time-help": "مساعدة الوقت",
-	"bs-watchlist-droplet-name": "قائمة المراقبة"
+	"bs-watchlist-droplet-name": "قائمة المراقبة",
+	"bs-watchlist-droplet-description": "أحدث التغييرات على الصفحات المدرجة في قائمة المراقبة"
 }
