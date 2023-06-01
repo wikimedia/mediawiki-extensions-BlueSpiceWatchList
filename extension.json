@@ -64,9 +64,6 @@
 		"SkinTemplateNavigation::Universal": "skin"
 	},
 	"ResourceModules": {
-		"ext.bluespice.watchlist.styles": {
-			"styles": "bluespice.watchlist.css"
-		},
 		"ext.bluespice.watchlist.myWatchlistWindow.bootstrap": {
 			"scripts": [
 				"ext.bluespice.watchlist.myWatchlistWindow.bootstrap.js"
