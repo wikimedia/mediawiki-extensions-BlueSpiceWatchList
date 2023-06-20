@@ -25,7 +25,7 @@
 	"bs-watchlist-ve-watchlist-attr-count-label": "Количество",
 	"bs-watchlist-tag-watchlist-attr-count-help": "Количество записей в списке наблюдения, которое должно быть показано",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Максимальная длина заголовка",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Для справки: Максимальная длина заголовка",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Количество букв, которые должны быть показаны в заголовке. Может быть от 5 до 500.",
 	"bs-watchlist-ve-watchlist-attr-order-label": "Порядок",
 	"bs-watchlist-tag-watchlist-attr-order-help": "Показывает список, отсортированный по времени или названию страницы",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Название документа",
