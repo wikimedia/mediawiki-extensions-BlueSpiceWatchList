@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BadDog",
+			"Kizule",
 			"Milicevic01",
 			"Zenfiric",
 			"Милан Јелисавчић"
@@ -13,5 +14,13 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Испитајте промене",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Страница за разговор",
 	"bs-watchlist-grid-watchlist-label-filter": "Филтер",
-	"bs-watchlist-droplet-name": "Списак надгледања"
+	"bs-watchlist-droplet-name": "Списак надгледања",
+	"bs-watchlist-title-sidebar": "Списак надгледања",
+	"bs-watchlist-pref-sort-time": "Време",
+	"bs-watchlist-pref-sort-title": "Наслов",
+	"bs-watchlist-ve-watchlistinspector-title": "Списак надгледања",
+	"bs-watchlist-ve-watchlist-attr-count-label": "Број",
+	"bs-watchlist-ve-watchlist-attr-order-label": "Редослед",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Име странице",
+	"bs-watchlist-ve-watchlist-attr-time-label": "Време"
 }
