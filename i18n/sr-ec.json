@@ -4,14 +4,23 @@
 			"BadDog",
 			"Milicevic01",
 			"Zenfiric",
-			"Милан Јелисавчић"
+			"Милан Јелисавчић",
+			"Kizule"
 		]
 	},
+	"bs-watchlist-title-sidebar": "Списак надгледања",
+	"bs-watchlist-pref-sort-time": "Време",
+	"bs-watchlist-pref-sort-title": "Наслов",
 	"bs-watchlist-window-watchlist-title": "Списак надгледања",
 	"bs-watchlist-grid-watchlist-column-link-header": "Страница",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Непрочитане промене",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Испитајте промене",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Страница за разговор",
 	"bs-watchlist-grid-watchlist-label-filter": "Филтер",
+	"bs-watchlist-ve-watchlistinspector-title": "Списак надгледања",
+	"bs-watchlist-ve-watchlist-attr-count-label": "Број",
+	"bs-watchlist-ve-watchlist-attr-order-label": "Редослед",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Име странице",
+	"bs-watchlist-ve-watchlist-attr-time-label": "Време",
 	"bs-watchlist-droplet-name": "Списак надгледања"
 }
