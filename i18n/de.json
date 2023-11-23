@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"*Surak*",
 			"Brettchenweber",
 			"ElBe",
+			"Justman10000",
 			"Metalhead64",
 			"Mschlindwein",
 			"Stephan Muggli <muggli@hallowelt.biz>",
-			"ZiqiLiang",
-			"Justman10000",
-			"*Surak*"
+			"ZiqiLiang"
 		]
 	},
 	"bs-watchlist-desc": "Fügt ein Beobachtungsliste-Widget und Tag hinzu",
