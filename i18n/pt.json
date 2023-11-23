@@ -29,5 +29,7 @@
 	"bs-watchlist-tag-watchlist-no-user": "A lista de páginas vigiadas não pode ser apresentada porque não há nenhum utilizador com sessão iniciada",
 	"bs-watchlist-tag-watchlist-no-entries": "Não há alterações nas páginas a mostrar nas páginas vigiadas",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Ajuda sobre o nome da página",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Ajuda sobre a hora"
+	"bs-watchlist-tag-watchlist-attr-time-help": "Ajuda sobre a hora",
+	"bs-watchlist-droplet-name": "Páginas vigiadas",
+	"bs-watchlist-droplet-description": "Últimas mudanças nas páginas incluídas na lista de páginas vigiadas"
 }
