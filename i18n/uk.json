@@ -23,7 +23,7 @@
 	"bs-watchlist-ve-watchlistinspector-title": "Список спостереження",
 	"bs-watchlist-ve-watchlist-attr-count-label": "Кількість",
 	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "Максимальна довжина заголовка",
-	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Довідка про максимальну довжину заголовка",
+	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "Кількість літер, які повинні бути показані в назві. Може бути числом від 5 до 500.",
 	"bs-watchlist-ve-watchlist-attr-order-label": "Порядок",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Назва сторінки",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Довідка щодо назви сторінки",
