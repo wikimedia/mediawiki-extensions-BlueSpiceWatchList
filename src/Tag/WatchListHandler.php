@@ -4,6 +4,7 @@ namespace BlueSpice\WatchList\Tag;
 
 use BlueSpice\Tag\Handler;
 use BsStringHelper;
+use MediaWiki\MediaWikiServices;
 use Parser;
 use PPFrame;
 use RequestContext;
@@ -62,7 +63,8 @@ class WatchListHandler extends Handler {
 		}
 		$options['LIMIT'] = $this->processedArgs[WatchList::ATTR_COUNT];
 
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()
+			->getConnection( DB_REPLICA );
 		$res = $dbr->select(
 			[ 'watchlist', 'page' ],
 			[ 'wl_namespace', 'wl_title' ],
