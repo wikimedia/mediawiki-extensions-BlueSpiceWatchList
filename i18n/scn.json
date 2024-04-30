@@ -5,15 +5,15 @@
 		]
 	},
 	"bs-watchlist-title-sidebar": "Lista taliata",
-	"bs-watchlist-pref-sort-title": "T\u00ectulu",
+	"bs-watchlist-pref-sort-title": "Tìtulu",
 	"bs-watchlist-window-watchlist-title": "Lista taliata",
-	"bs-watchlist-grid-watchlist-column-link-header": "P\u00e0ggina",
-	"bs-watchlist-grid-watchlist-column-istalkpage-header": "P\u00e0ggina di discussioni",
+	"bs-watchlist-grid-watchlist-column-link-header": "Pàggina",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Pàggina di discussioni",
 	"bs-watchlist-ve-watchlistinspector-title": "Lista taliata",
-	"bs-watchlist-ve-watchlist-attr-order-label": "\u00d2rdini",
-	"bs-watchlist-tag-watchlist-attr-order-help": "Aiutu supra l'\u00f2rdini",
-	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nomu di p\u00e0ggina",
-	"bs-watchlist-tag-watchlist-attr-pagename-help": "Aiutu supra lu nomu di p\u00e0ggina",
+	"bs-watchlist-ve-watchlist-attr-order-label": "Òrdini",
+	"bs-watchlist-tag-watchlist-attr-order-help": "Aiutu supra l'òrdini",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "Nomu di pàggina",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "Aiutu supra lu nomu di pàggina",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Urariu",
 	"bs-watchlist-tag-watchlist-attr-time-help": "Aiutu supra l'urariu"
 }
