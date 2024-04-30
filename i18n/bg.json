@@ -4,9 +4,9 @@
 			"StanProg"
 		]
 	},
-	"bs-watchlist-grid-watchlist-column-link-header": "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430",
-	"bs-watchlist-title-sidebar": "\u0421\u043f\u0438\u0441\u044a\u043a \u0437\u0430 \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435",
-	"bs-watchlist-window-watchlist-title": "\u0421\u043f\u0438\u0441\u044a\u043a \u0437\u0430 \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435",
-	"bs-watchlist-ve-watchlistinspector-title": "\u0421\u043f\u0438\u0441\u044a\u043a \u0437\u0430 \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435",
-	"bs-watchlist-droplet-name": "\u0421\u043f\u0438\u0441\u044a\u043a \u0437\u0430 \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435"
+	"bs-watchlist-grid-watchlist-column-link-header": "Страница",
+	"bs-watchlist-title-sidebar": "Списък за наблюдение",
+	"bs-watchlist-window-watchlist-title": "Списък за наблюдение",
+	"bs-watchlist-ve-watchlistinspector-title": "Списък за наблюдение",
+	"bs-watchlist-droplet-name": "Списък за наблюдение"
 }
