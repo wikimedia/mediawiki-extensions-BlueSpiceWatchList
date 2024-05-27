@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Hwangjy9",
-			"Ykhwong"
+			"Ykhwong",
+			"Suleiman the Magnificent Television"
 		]
 	},
 	"bs-watchlist-desc": "주시문서 목록 위젯과 태그 추가",
-	"bs-watchlist-title-sidebar": "주시문서 목록",
 	"bs-watchlist-pref-sort-time": "시간",
 	"bs-watchlist-pref-sort-title": "제목",
 	"bs-watchlist-window-watchlist-title": "주시문서 목록",
@@ -14,5 +14,8 @@
 	"bs-watchlist-grid-watchlist-column-link-header": "문서",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "미확인한 변경사항",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "토론 문서",
-	"bs-watchlist-grid-watchlist-label-filter": "필터"
+	"bs-watchlist-grid-watchlist-label-filter": "필터",
+	"bs-watchlist-ve-watchlistinspector-title": "감시 목록",
+	"bs-watchlist-ve-watchlist-attr-count-label": "개수",
+	"bs-watchlist-ve-watchlist-attr-order-label": "순서"
 }

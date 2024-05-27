@@ -6,11 +6,11 @@
 			"Okras",
 			"SuperPuperSteve",
 			"Tanzun",
-			"Vlad5250"
+			"Vlad5250",
+			"Yurina Tatiana"
 		]
 	},
 	"bs-watchlist-desc": "Добавляет виджет списка наблюдения и теги",
-	"bs-watchlist-title-sidebar": "Список наблюдения",
 	"bs-watchlist-pref-sort-time": "Время",
 	"bs-watchlist-pref-sort-title": "Заголовок",
 	"bs-watchlist-tag-watchlist-desc": "Показывает статьи из вашего списка наблюдения с самыми свежими правками.",
@@ -30,6 +30,9 @@
 	"bs-watchlist-tag-watchlist-attr-order-help": "Показывает список, отсортированный по времени или названию страницы",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "Название документа",
 	"bs-watchlist-ve-watchlist-attr-time-label": "Время",
+	"bs-watchlist-tag-watchlist-no-user": "Список наблюдения не может быть отображён, поскольку ни один пользователь не вошёл в систему",
+	"bs-watchlist-tag-watchlist-no-entries": "Нет изменений на страницах для отображения в списке наблюдения.",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Справочная информация о названии документа",
-	"bs-watchlist-tag-watchlist-attr-time-help": "Для справки: Время"
+	"bs-watchlist-tag-watchlist-attr-time-help": "Для справки: Время",
+	"bs-watchlist-droplet-name": "Список наблюдения"
 }
