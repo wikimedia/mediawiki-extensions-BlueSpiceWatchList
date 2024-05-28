@@ -3,6 +3,7 @@
 		"authors": [
 			"A Chinese Wikipedian",
 			"Lakejason0",
+			"LittlePaw365",
 			"Liuxinyu970226",
 			"Wzl19371",
 			"佛壁灯"
@@ -18,7 +19,7 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "未查看更改",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "检查更改",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "讨论页",
-	"bs-watchlist-grid-watchlist-label-filter": "过滤器",
+	"bs-watchlist-grid-watchlist-label-filter": "筛选",
 	"bs-watchlist-ve-watchlistinspector-title": "监视列表",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "页面名称",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "页面名称帮助"
