@@ -5,11 +5,11 @@
 			"Lakejason0",
 			"Liuxinyu970226",
 			"Wzl19371",
-			"佛壁灯"
+			"佛壁灯",
+			"LittlePaw365"
 		]
 	},
 	"bs-watchlist-desc": "加入监视列表小组件和标签",
-	"bs-watchlist-title-sidebar": "监视列表",
 	"bs-watchlist-pref-sort-time": "时间",
 	"bs-watchlist-pref-sort-title": "标题",
 	"bs-watchlist-tag-watchlist-desc": "显示由最多最近更改，且在您的监视列表上的页面。",
@@ -19,7 +19,7 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "未查看更改",
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "检查更改",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "讨论页",
-	"bs-watchlist-grid-watchlist-label-filter": "过滤器",
+	"bs-watchlist-grid-watchlist-label-filter": "筛选",
 	"bs-watchlist-ve-watchlistinspector-title": "监视列表",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "页面名称",
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "页面名称帮助"
