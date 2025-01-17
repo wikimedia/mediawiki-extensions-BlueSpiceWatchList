@@ -5,10 +5,10 @@ namespace BlueSpice\WatchList\Tag;
 use BlueSpice\Tag\Handler;
 use BsStringHelper;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use Parser;
 use PPFrame;
 use RequestContext;
-use Title;
 
 class WatchListHandler extends Handler {
 
