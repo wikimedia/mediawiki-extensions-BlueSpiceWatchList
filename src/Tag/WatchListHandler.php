@@ -4,11 +4,11 @@ namespace BlueSpice\WatchList\Tag;
 
 use BlueSpice\Tag\Handler;
 use BsStringHelper;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use Parser;
 use PPFrame;
-use RequestContext;
 
 class WatchListHandler extends Handler {
 
