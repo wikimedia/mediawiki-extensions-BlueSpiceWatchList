@@ -6,8 +6,8 @@ use BlueSpice\Tag\Handler;
 use BsStringHelper;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Parser\Parser;
 use MediaWiki\Title\Title;
-use Parser;
 use PPFrame;
 
 class WatchListHandler extends Handler {
