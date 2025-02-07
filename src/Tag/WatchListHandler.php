@@ -7,8 +7,8 @@ use BsStringHelper;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\PPFrame;
 use MediaWiki\Title\Title;
-use PPFrame;
 
 class WatchListHandler extends Handler {
 
