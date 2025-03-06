@@ -28,7 +28,7 @@ class WatchlistHandler implements ITagHandler {
 	 * @inheritDoc
 	 */
 	public function getRenderedContent( string $input, array $params, Parser $parser, PPFrame $frame ): string {
-		$parser->getOutput()->setPageProperty( 'bs-tag-watchlist', 1 );
+		$parser->getOutput()->setPageProperty( 'bs-tag-watchlist', '1' );
 		$list = '';
 		if ( !$parser->getUserIdentity()->isRegistered() ) {
 			return Message::newFromKey( 'bs-watchlist-tag-watchlist-no-user' )->text();
