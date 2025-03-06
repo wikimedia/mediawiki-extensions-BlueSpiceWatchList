@@ -56,32 +56,10 @@
 		}
 	},
 	"Hooks": {
-		"BeforePageDisplay": [
-			"\\BlueSpice\\WatchList\\Hook\\BeforePageDisplay\\AddModules::callback"
-		],
 		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\WatchList\\Hook\\BSUsageTrackerRegisterCollectors\\AddWatchListTag::callback",
 		"SkinTemplateNavigation::Universal": "skin"
 	},
 	"ResourceModules": {
-		"ext.bluespice.watchlist.myWatchlistWindow.bootstrap": {
-			"scripts": [
-				"ext.bluespice.watchlist.myWatchlistWindow.bootstrap.js"
-			]
-		},
-		"ext.bluespice.watchlist.myWatchlistWindow": {
-			"styles": [
-				"ext.bluespice.watchlist.myWatchlistWindow.css"
-			],
-			"messages": [
-				"bs-watchlist-window-watchlist-title",
-				"bs-watchlist-window-watchlist-intro",
-				"bs-watchlist-grid-watchlist-column-link-header",
-				"bs-watchlist-grid-watchlist-column-hasunreadchanges-header",
-				"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip",
-				"bs-watchlist-grid-watchlist-label-filter",
-				"bs-watchlist-grid-watchlist-column-istalkpage-header"
-			]
-		},
 		"ext.bluespice.watchlist.visualEditor": {
 			"scripts": [
 				"bs.watchlist/util/tag/WatchListDefinition.js"
