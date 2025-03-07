@@ -25,11 +25,8 @@
 			}
 		},
 		"BlueSpiceUserSidebar": {
-			"Widgets": {
-				"WATCHLIST": {
-					"callback": "\\BlueSpice\\WatchList\\Panel\\WatchList::factory",
-					"default": true
-				}
+			"WidgetRegistry": {
+				"WATCHLIST": "\\BlueSpice\\WatchList\\UserSidebar\\Widget\\WatchList::factory"
 			}
 		},
 		"BlueSpiceDiscovery": {
