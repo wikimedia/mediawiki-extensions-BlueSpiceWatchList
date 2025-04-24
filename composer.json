@@ -11,8 +11,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"BlueSpice\\WatchList\\": "src",
-			"BlueSpice\\WatchList\\Tests\\": "tests/phpunit"
+			"BlueSpice\\WatchList\\": "src"
 		}
 	},
 	"require-dev": {
