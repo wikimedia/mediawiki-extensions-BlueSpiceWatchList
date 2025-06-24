@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"Derugon"
 		]
 	},
 	"bs-watchlist-desc": "Ajoute un widget et une balise de liste de suivi",
@@ -24,5 +25,6 @@
 	"bs-watchlist-tag-watchlist-attr-pagename-help": "Aide sur le nom de page",
 	"bs-watchlist-tag-watchlist-attr-time-help": "Aide sur l’heure",
 	"bs-watchlist-droplet-name": "Liste de suivi",
-	"bs-watchlist-droplet-description": "Dernières modifications des pages incluses dans la liste de suivi"
+	"bs-watchlist-droplet-description": "Dernières modifications des pages incluses dans la liste de suivi",
+	"bs-watchlist-usersidebar-title": "Liste de suivi"
 }
