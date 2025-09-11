@@ -14,7 +14,7 @@
 	"bs-watchlist-desc": "Fügt ein Beobachtungsliste-Widget und Tag hinzu",
 	"bs-watchlist-pref-sort-time": "Zeit",
 	"bs-watchlist-pref-sort-title": "Titel",
-	"bs-watchlist-tag-watchlist-desc": "Zeigt die Artikel an, die letzte Änderungen haben und die auf deiner Beobachtungsliste sind.",
+	"bs-watchlist-tag-watchlist-desc": "Zeigt die Artikel an, die letzte Änderungen haben und die auf {{#FORMAL:deiner|Ihrer}} Beobachtungsliste sind.",
 	"bs-watchlist-ve-watchlistinspector-title": "Beobachtungsliste",
 	"bs-watchlist-ve-watchlist-attr-count-label": "Anzahl",
 	"bs-watchlist-tag-watchlist-attr-count-help": "Die Anzahl der Einträge auf der Beobachtungsliste sollte angezeigt werden",
