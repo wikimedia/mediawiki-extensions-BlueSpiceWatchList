@@ -90,7 +90,7 @@ class Watchlist extends GenericTag {
 			[
 				'type' => 'number',
 				'name' => 'count',
-				'label' => Message::newFromKey( 'bs-watchlist-ve-watchlist-attr-count-label' )->text(),
+				'label' => Message::newFromKey( 'bs-watchlist-ve-watchlist-attr-number-result-label' )->text(),
 				'help' => Message::newFromKey( 'bs-watchlist-tag-watchlist-attr-count-help' )->text(),
 				'value' => 5,
 				'widget_min' => 1,
@@ -99,7 +99,7 @@ class Watchlist extends GenericTag {
 			[
 				'type' => 'number',
 				'name' => 'maxtitlelength',
-				'label' => Message::newFromKey( 'bs-watchlist-ve-watchlist-attr-maxtitlelength-label' )->text(),
+				'label' => Message::newFromKey( 'bs-watchlist-ve-watchlist-attr-titlelength-label' )->text(),
 				'help' => Message::newFromKey( 'bs-watchlist-tag-watchlist-attr-maxtitlelength-help' )->text(),
 				'value' => 20,
 				'widget_min' => 5,
@@ -108,7 +108,7 @@ class Watchlist extends GenericTag {
 			[
 				'type' => 'dropdown',
 				'name' => 'order',
-				'label' => Message::newFromKey( 'bs-watchlist-ve-watchlist-attr-order-label' )->text(),
+				'label' => Message::newFromKey( 'bs-watchlist-ve-watchlist-attr-sort-by-label' )->text(),
 				'help' => Message::newFromKey( 'bs-watchlist-tag-watchlist-attr-order-help' )->text(),
 				'value' => 'time',
 				'options' => [
