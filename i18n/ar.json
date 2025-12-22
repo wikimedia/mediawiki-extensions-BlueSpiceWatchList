@@ -16,11 +16,8 @@
 	"bs-watchlist-pref-sort-title": "العنوان",
 	"bs-watchlist-tag-watchlist-desc": "يعرض المقالات التي تحتوي على أحدث التغييرات وموجودة في قائمة مراقبتك.",
 	"bs-watchlist-ve-watchlistinspector-title": "قائمة المراقبة",
-	"bs-watchlist-ve-watchlist-attr-count-label": "عدد",
 	"bs-watchlist-tag-watchlist-attr-count-help": "يجب إظهار عدد الإدخالات في قائمة المراقبة",
-	"bs-watchlist-ve-watchlist-attr-maxtitlelength-label": "الحد الأقصى لطول العنوان",
 	"bs-watchlist-tag-watchlist-attr-maxtitlelength-help": "عدد الحروف التي يجب إظهارها في العنوان. يمكن أن يكون رقمًا بين 5 و 500.",
-	"bs-watchlist-ve-watchlist-attr-order-label": "ترتيب",
 	"bs-watchlist-tag-watchlist-attr-order-help": "يظهر قائمة مرتبة حسب الوقت أو اسم الصفحة",
 	"bs-watchlist-ve-watchlist-attr-pagename-label": "اسم الصفحة",
 	"bs-watchlist-ve-watchlist-attr-time-label": "الوقت",
@@ -30,5 +27,8 @@
 	"bs-watchlist-tag-watchlist-attr-time-help": "مساعدة الوقت",
 	"bs-watchlist-droplet-name": "قائمة المراقبة",
 	"bs-watchlist-droplet-description": "أحدث التغييرات على الصفحات المدرجة في قائمة المراقبة",
-	"bs-watchlist-usersidebar-title": "قائمة المراقبة"
+	"bs-watchlist-usersidebar-title": "قائمة المراقبة",
+	"bs-watchlist-ve-watchlist-attr-number-result-label": "عدد الصفحات المعروضة",
+	"bs-watchlist-ve-watchlist-attr-titlelength-label": "الحد الأقصى لطول عناوين الصفحات",
+	"bs-watchlist-ve-watchlist-attr-sort-by-label": "فرز حسب"
 }
