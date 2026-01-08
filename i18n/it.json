@@ -18,5 +18,6 @@
 	"bs-watchlist-ve-watchlistinspector-title": "Osservati speciali",
 	"bs-watchlist-droplet-name": "Osservati speciali",
 	"bs-watchlist-ve-watchlist-attr-titlelength-label": "Lunghezza massima dei titoli di pagina",
-	"bs-watchlist-ve-watchlist-attr-sort-by-label": "Ordina per"
+	"bs-watchlist-ve-watchlist-attr-sort-by-label": "Ordina per",
+	"bs-watchlist-ve-watchlist-attr-number-result-label": "Numero di pagine mostrate"
 }
