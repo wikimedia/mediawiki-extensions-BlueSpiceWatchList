@@ -34,5 +34,9 @@
 	"bs-watchlist-tag-watchlist-attr-order-help": "顯示按時間或頁面名稱排序的清單",
 	"bs-watchlist-tag-watchlist-no-user": "因為沒有使用者登入，無法顯示監視清單",
 	"bs-watchlist-tag-watchlist-no-entries": "監視清單中顯示的頁面沒有變化",
-	"bs-watchlist-droplet-description": "包含在監視清單中頁面的最新更改"
+	"bs-watchlist-droplet-description": "包含在監視清單中頁面的最新更改",
+	"bs-watchlist-usersidebar-title": "監視清單",
+	"bs-watchlist-ve-watchlist-attr-number-result-label": "顯示的頁數",
+	"bs-watchlist-ve-watchlist-attr-titlelength-label": "頁面標題的最大長度",
+	"bs-watchlist-ve-watchlist-attr-sort-by-label": "排序依"
 }

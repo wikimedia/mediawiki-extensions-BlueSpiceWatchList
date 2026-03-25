@@ -5,6 +5,7 @@
 			"Erelon",
 			"Guycn2",
 			"Steeve815",
+			"YaronSh",
 			"מקף"
 		]
 	},
@@ -34,5 +35,6 @@
 	"bs-watchlist-tag-watchlist-no-user": "לא ניתן להציג רשימת מעקב כי שום משתמש לא מחובר",
 	"bs-watchlist-tag-watchlist-no-entries": "אין שינויים בדפים להצגה ברשימת המעקב",
 	"bs-watchlist-droplet-name": "רשימת המעקב",
-	"bs-watchlist-droplet-description": "שינויים אחרונים בדפים הכלולים ברשימת המעקב"
+	"bs-watchlist-droplet-description": "שינויים אחרונים בדפים הכלולים ברשימת המעקב",
+	"bs-watchlist-usersidebar-title": "רשימת המעקב"
 }

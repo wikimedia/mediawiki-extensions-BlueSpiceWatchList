@@ -2,6 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hwangjy9",
+			"Suleiman the Magnificent Television",
+			"YeBoy371",
 			"Ykhwong"
 		]
 	},
@@ -14,5 +16,8 @@
 	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "미확인한 변경사항",
 	"bs-watchlist-grid-watchlist-column-istalkpage-header": "토론 문서",
 	"bs-watchlist-grid-watchlist-label-filter": "필터",
-	"bs-watchlist-desc": "주시문서 목록 위젯과 태그 추가"
+	"bs-watchlist-desc": "주시문서 목록 소도구와 태그 추가",
+	"bs-watchlist-ve-watchlistinspector-title": "주시문서 목록",
+	"bs-watchlist-usersidebar-title": "주시문서 목록",
+	"bs-watchlist-ve-watchlist-attr-sort-by-label": "정렬 기준"
 }

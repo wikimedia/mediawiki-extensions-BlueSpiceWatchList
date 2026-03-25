@@ -30,5 +30,9 @@
 	"bs-watchlist-tag-watchlist-no-user": "Watchlist cannot be displayed because no user is logged in",
 	"bs-watchlist-tag-watchlist-no-entries": "No changes on pages to show in watchlist",
 	"bs-watchlist-droplet-name": "Watchlist",
-	"bs-watchlist-droplet-description": "Latest changes to pages included in the watchlist"
+	"bs-watchlist-droplet-description": "Latest changes to pages included in the watchlist",
+	"bs-watchlist-usersidebar-title": "Watchlist",
+	"bs-watchlist-ve-watchlist-attr-number-result-label": "Number of shown pages",
+	"bs-watchlist-ve-watchlist-attr-titlelength-label": "Maximum length of page titles",
+	"bs-watchlist-ve-watchlist-attr-sort-by-label": "Sort by"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Derugon",
 			"Gomoko",
 			"Verdy p",
 			"Wladek92"
@@ -32,5 +33,6 @@
 	"bs-watchlist-tag-watchlist-no-user": "La liste de suivi ne peut pas être affichée car aucun utilisateur n’est connecté.",
 	"bs-watchlist-tag-watchlist-no-entries": "Aucun changement sur les pages à afficher dans la liste de suivi.",
 	"bs-watchlist-droplet-name": "Liste de suivi",
-	"bs-watchlist-droplet-description": "Dernières modifications des pages incluses dans la liste de suivi"
+	"bs-watchlist-droplet-description": "Dernières modifications des pages incluses dans la liste de suivi",
+	"bs-watchlist-usersidebar-title": "Liste de suivi"
 }
