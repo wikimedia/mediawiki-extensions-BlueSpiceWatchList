@@ -3,6 +3,7 @@
 		"authors": [
 			"Hwangjy9",
 			"Suleiman the Magnificent Television",
+			"Tensama0415",
 			"YeBoy371",
 			"Ykhwong"
 		]
@@ -12,5 +13,11 @@
 	"bs-watchlist-pref-sort-title": "제목",
 	"bs-watchlist-ve-watchlistinspector-title": "주시문서 목록",
 	"bs-watchlist-usersidebar-title": "주시문서 목록",
-	"bs-watchlist-ve-watchlist-attr-sort-by-label": "정렬 기준"
+	"bs-watchlist-ve-watchlist-attr-sort-by-label": "정렬 기준",
+	"bs-watchlist-ve-watchlist-attr-pagename-label": "문서 이름",
+	"bs-watchlist-ve-watchlist-attr-time-label": "시간",
+	"bs-watchlist-tag-watchlist-no-user": "로그인한 사용자가 없으므로 주시문서 목록을 표시할 수 없습니다",
+	"bs-watchlist-tag-watchlist-attr-pagename-help": "문서 이름 도움말",
+	"bs-watchlist-tag-watchlist-attr-time-help": "시간 도움말",
+	"bs-watchlist-droplet-name": "주시문서 목록"
 }
